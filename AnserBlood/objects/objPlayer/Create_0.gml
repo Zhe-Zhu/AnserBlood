@@ -1,0 +1,1 @@
+walkingSpeed = 10;
