@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05c39e5b-6888-4803-adbf-fb85b133468f",
+            "Value": {
+                "id": "6058c2af-5360-496e-99bb-462cd63ee49a",
+                "resourcePath": "sprites\\spr_PlayerAttack\\spr_PlayerAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16544049-f206-497e-88f9-442abc979fce",
             "Value": {
                 "id": "1e53a918-0c1d-42a4-b889-abb878230fa4",
@@ -52,6 +60,22 @@
                 "id": "d4f1d4fc-307a-41d1-9d56-b0b58d78b78f",
                 "resourcePath": "views\\20d9e8d9-aaea-43e3-a51a-70a1dccacc77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23f21b96-1f67-43e6-b358-a62ee51489c2",
+            "Value": {
+                "id": "110c31dc-d7f5-4257-8802-01619fd3aa50",
+                "resourcePath": "sprites\\sprLegs\\sprLegs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "29ed53c1-44dc-4267-be71-4f1aa94a1b00",
+            "Value": {
+                "id": "6572f5ae-d740-4eff-87d9-3c02221e62a5",
+                "resourcePath": "scripts\\scr_animate\\scr_animate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -103,6 +127,14 @@
             }
         },
         {
+            "Key": "613ee70c-0304-43e3-b08a-aaeaa58fed3a",
+            "Value": {
+                "id": "c2ac2aab-74e6-485d-b136-79a665d5e0e9",
+                "resourcePath": "sprites\\sprite_2\\sprite_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "721baeff-397c-42a3-9066-be5dce35ed5a",
             "Value": {
                 "id": "3cd8ec8a-c770-4187-a35f-ee1de9008119",
@@ -138,7 +170,7 @@
             "Key": "8205282d-37df-46b2-a69f-eb7c3d0e786e",
             "Value": {
                 "id": "05d4d424-8cfe-4d54-8ba4-78590181bbfc",
-                "resourcePath": "sprites\\sprite_0sdfsdfsdfsdfsfs\\sprite_0sdfsdfsdfsdfsfs.yy",
+                "resourcePath": "sprites\\sprPlayerWalk\\sprPlayerWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -164,6 +196,14 @@
                 "id": "e7eb67c8-d3c7-41ac-9b62-2b9e4b1958c6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aeec3311-55c3-4794-8772-5abdc5b57096",
+            "Value": {
+                "id": "7e271282-9d96-42f4-98bc-da4f65417c75",
+                "resourcePath": "objects\\objPlayerLegs\\objPlayerLegs.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -208,7 +248,7 @@
         }
     ],
     "script_order": [
-        
+        "29ed53c1-44dc-4267-be71-4f1aa94a1b00"
     ],
     "tutorial": ""
 }
