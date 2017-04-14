@@ -2,14 +2,14 @@
     "id": "4202023d-3564-4f0a-b7da-3416e626a609",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "room_kick_door",
+    "name": "room_melee_attack",
     "IsDnD": false,
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "7a601d70-3abc-4fc4-bd36-72dbaeb7733b"
+        "a017716e-6929-4fe4-9c5b-20346fd48e91"
     ],
     "layers": [
         {
@@ -36,16 +36,16 @@
             "visible": true,
             "instances": [
                 {
-                    "id": "7a601d70-3abc-4fc4-bd36-72dbaeb7733b",
+                    "id": "a017716e-6929-4fe4-9c5b-20346fd48e91",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_5A6DE654",
-                    "x": 448,
-                    "y": 320,
+                    "name": "inst_7EAE9CF1",
+                    "x": 256,
+                    "y": 416,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -53,8 +53,8 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_5A6DE654",
-                    "objId": "19772eb3-75f3-4f8f-81e7-5b86047578a1",
+                    "name_with_no_file_rename": "inst_7EAE9CF1",
+                    "objId": "16544049-f206-497e-88f9-442abc979fce",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
