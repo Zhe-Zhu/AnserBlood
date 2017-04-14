@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "054b06fa-d665-432b-a550-899e5b177dba",
+            "Value": {
+                "id": "0b7a955e-a9c8-4a38-a585-ddd287ac3d99",
+                "resourcePath": "sprites\\sprPMeleeAttack\\sprPMeleeAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19772eb3-75f3-4f8f-81e7-5b86047578a1",
+            "Value": {
+                "id": "c23920b8-2f78-4164-bb01-bc4e99b6fac5",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c2e024c-779d-484b-b650-32b6fe2b10fb",
             "Value": {
                 "id": "db5a53ff-c7d7-4c5f-8c8a-b38720619b05",
@@ -84,6 +100,14 @@
                 "id": "d7915dbb-8204-4307-8b28-bdc7e9afe399",
                 "resourcePath": "views\\408e2233-6955-4df4-b24a-9cdaf9f8a038.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4202023d-3564-4f0a-b7da-3416e626a609",
+            "Value": {
+                "id": "48e561fe-3104-4c2d-ba35-4e07914e513e",
+                "resourcePath": "rooms\\room_kick_door\\room_kick_door.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -180,6 +204,14 @@
                 "id": "262a7064-9a20-4e73-a3b8-49ffc7218680",
                 "resourcePath": "views\\cdf96b82-d1a0-4c20-a057-b2480eb71421.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2e622e9-c1fb-40cb-b1a4-fd732edf641a",
+            "Value": {
+                "id": "1bd40faa-8d52-4762-a483-d6757fac8dc7",
+                "resourcePath": "sprites\\sprPWalk\\sprPWalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
