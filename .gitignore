@@ -31,8 +31,7 @@ local.properties
 #############
 GameMaker
 #############
-*.yy
-*.yyp
+
 
 
 #################
