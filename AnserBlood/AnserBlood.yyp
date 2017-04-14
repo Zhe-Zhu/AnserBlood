@@ -31,17 +31,28 @@
     },
     "resources": [
         {
+
             "Key": "05c39e5b-6888-4803-adbf-fb85b133468f",
             "Value": {
                 "id": "6058c2af-5360-496e-99bb-462cd63ee49a",
                 "resourcePath": "sprites\\spr_PlayerAttack\\spr_PlayerAttack.yy",
+
+
                 "resourceType": "GMSprite"
             }
         },
         {
             "Key": "16544049-f206-497e-88f9-442abc979fce",
             "Value": {
-                "id": "1e53a918-0c1d-42a4-b889-abb878230fa4",
+                "id": "af159e1d-d323-4a93-809d-105ce0ee3d37",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19772eb3-75f3-4f8f-81e7-5b86047578a1",
+            "Value": {
+                "id": "c23920b8-2f78-4164-bb01-bc4e99b6fac5",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
             }
@@ -119,6 +130,14 @@
             }
         },
         {
+            "Key": "4202023d-3564-4f0a-b7da-3416e626a609",
+            "Value": {
+                "id": "48e561fe-3104-4c2d-ba35-4e07914e513e",
+                "resourcePath": "rooms\\room_melee_attack\\room_melee_attack.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5c0a81ba-af82-494a-8e9f-19e7d7c7db5e",
             "Value": {
                 "id": "c77b925c-a9e6-47af-8aab-b3e3ea9ebeaf",
@@ -167,6 +186,7 @@
             }
         },
         {
+
             "Key": "8205282d-37df-46b2-a69f-eb7c3d0e786e",
             "Value": {
                 "id": "05d4d424-8cfe-4d54-8ba4-78590181bbfc",
@@ -175,6 +195,7 @@
             }
         },
         {
+
             "Key": "92680015-c918-4276-b53f-5d9dff3b4716",
             "Value": {
                 "id": "3a0f15bc-539e-4b24-be46-d57eaad2eba0",
@@ -228,6 +249,14 @@
                 "id": "262a7064-9a20-4e73-a3b8-49ffc7218680",
                 "resourcePath": "views\\cdf96b82-d1a0-4c20-a057-b2480eb71421.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2e622e9-c1fb-40cb-b1a4-fd732edf641a",
+            "Value": {
+                "id": "1bd40faa-8d52-4762-a483-d6757fac8dc7",
+                "resourcePath": "sprites\\sprPWalk\\sprPWalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
