@@ -31,13 +31,10 @@
     },
     "resources": [
         {
-
             "Key": "05c39e5b-6888-4803-adbf-fb85b133468f",
             "Value": {
                 "id": "6058c2af-5360-496e-99bb-462cd63ee49a",
-                "resourcePath": "sprites\\spr_PlayerAttack\\spr_PlayerAttack.yy",
-
-
+                "resourcePath": "sprites\\sprPlayerAttack\\sprPlayerAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -149,7 +146,7 @@
             "Key": "613ee70c-0304-43e3-b08a-aaeaa58fed3a",
             "Value": {
                 "id": "c2ac2aab-74e6-485d-b136-79a665d5e0e9",
-                "resourcePath": "sprites\\sprite_2\\sprite_2.yy",
+                "resourcePath": "sprites\\sprSmoking\\sprSmoking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -186,7 +183,6 @@
             }
         },
         {
-
             "Key": "8205282d-37df-46b2-a69f-eb7c3d0e786e",
             "Value": {
                 "id": "05d4d424-8cfe-4d54-8ba4-78590181bbfc",
@@ -195,7 +191,6 @@
             }
         },
         {
-
             "Key": "92680015-c918-4276-b53f-5d9dff3b4716",
             "Value": {
                 "id": "3a0f15bc-539e-4b24-be46-d57eaad2eba0",

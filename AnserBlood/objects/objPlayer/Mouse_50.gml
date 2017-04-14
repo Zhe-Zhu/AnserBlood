@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-sprite_index = sprPMeleeAttack;
+sprite_index = sprPlayerAttack;
