@@ -1,4 +1,4 @@
-# AnserBlood
+﻿# AnserBlood
 Game Maker Studio Project of AnserBlood
 
 文件树结构：
@@ -15,7 +15,7 @@ Scenes
 3. 投掷系统
 4. 近战系统
 5. 场景碰撞/场景摆放
-6. 镜头抖动/跟随
+//6. 镜头抖动/跟随
 7. 敌人AI
 8. 血的效果
 9. 敌人远程攻击
@@ -29,3 +29,4 @@ ZZ：
 
 Mike：
 1. 角色移动
+
