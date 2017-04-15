@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "ecc75589-8fa2-4235-a1ae-ff52152537b6",
     "children": [
-        "3b8d608d-30dd-4a21-aac1-42c1d9ce7c9b"
+        "d516a709-2e62-457b-98a2-00c8acdce7f9"
     ],
     "filterType": "GMObject",
     "folderName": "Effect",

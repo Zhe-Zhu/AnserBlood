@@ -216,7 +216,7 @@
             "objId": "8c58642d-fef1-413c-9642-62b88809be57",
             "vborder": 180,
             "visible": true,
-            "vspeed": 12,
+            "vspeed": 10,
             "wport": 1280,
             "wview": 480,
             "xport": 0,

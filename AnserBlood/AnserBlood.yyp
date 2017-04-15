@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "034d4302-995b-4149-ac48-d40ef3b88671",
+            "Value": {
+                "id": "0eaa073c-3a17-4be8-a4e6-5b0f793658c5",
+                "resourcePath": "objects\\objKillTextPar\\objKillTextPar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05c39e5b-6888-4803-adbf-fb85b133468f",
             "Value": {
                 "id": "6058c2af-5360-496e-99bb-462cd63ee49a",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "7ea7fef4-189e-48d4-8e2f-1f9bbd7f5023",
+            "Value": {
+                "id": "324a0281-5144-4685-a1b6-ef2b4c052966",
+                "resourcePath": "scripts\\scr_killText\\scr_killText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8080f55c-f417-4224-8051-bfd1988e950d",
             "Value": {
                 "id": "89c29f4b-29b7-4f35-a668-f784c7f2683f",
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "d516a709-2e62-457b-98a2-00c8acdce7f9",
+            "Value": {
+                "id": "b28d8bbf-1163-4294-92de-71343aa37375",
+                "resourcePath": "views\\d516a709-2e62-457b-98a2-00c8acdce7f9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d794d371-7143-445c-9fa1-e31754e0bb74",
             "Value": {
                 "id": "e4ba5857-1273-43e1-b922-226e8795b24a",
@@ -417,7 +441,8 @@
     ],
     "script_order": [
         "29ed53c1-44dc-4267-be71-4f1aa94a1b00",
-        "23117e30-2482-474e-bd85-028d67a3a120"
+        "23117e30-2482-474e-bd85-028d67a3a120",
+        "7ea7fef4-189e-48d4-8e2f-1f9bbd7f5023"
     ],
     "tutorial": ""
 }

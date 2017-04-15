@@ -6,4 +6,4 @@ sprite_index = sprPlayerAttack;
 script_execute(scr_shake(14,25));
 
 //Create Kill text
-instance_create_depth(x,y-20,-3,objKillText1);
+script_execute(scr_killText);
