@@ -1,5 +1,6 @@
 ///Screen shake(shakeMin,shakeMax)
-/* argument1 = shake min
-argument2 = shake max */
+//调用这个脚本之后，屏幕就会抖动
+var shakeMin = argument[0];
+var shakeMax = argument[1];
 
-objCamera.shake += random_range(argument[0],argument[1]);
+objCamera.shake += random_range(shakeMin,shakeMax);
