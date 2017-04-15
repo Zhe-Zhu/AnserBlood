@@ -26,3 +26,25 @@ if vspeed!= 0
 dir = point_direction(x,y,mouse_x,mouse_y);
 
 image_angle = dir;
+
+switch(state)
+{
+	case st.normal:
+	{
+		break;
+	}
+	
+	case st.attack:
+	{	
+		//====Hitbox
+		if (image_index >= 3)
+		{
+			with(instance_create_depth(x,y,0,objHitbox))
+			{
+				image_xscale = other.image_xscale;
+			}
+		}
+		
+		break;
+	}
+}
