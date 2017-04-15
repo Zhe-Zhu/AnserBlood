@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3b8d608d-30dd-4a21-aac1-42c1d9ce7c9b",
+            "Value": {
+                "id": "871ae9dc-ad16-4ff3-b4b1-004f850a7403",
+                "resourcePath": "objects\\objKillText1\\objKillText1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3bd73571-7d6c-44f9-a3a7-443e4f7e834d",
             "Value": {
                 "id": "db65e531-729e-47c6-a93f-462744d94df8",
@@ -164,6 +172,14 @@
                 "id": "48e561fe-3104-4c2d-ba35-4e07914e513e",
                 "resourcePath": "rooms\\room_melee_attack\\room_melee_attack.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "48536951-c9de-4fd0-a7e3-d8b2d6870be3",
+            "Value": {
+                "id": "ffb8e6fe-da84-46af-ae5e-79534ffa4f8d",
+                "resourcePath": "sprites\\sprKillText1\\sprKillText1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -379,6 +395,14 @@
             "Value": {
                 "id": "8b5b8a18-47f1-4a92-bb88-a6de02724f7a",
                 "resourcePath": "views\\ea7418a9-f814-4b8a-b0a7-41313bad5c46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ecc75589-8fa2-4235-a1ae-ff52152537b6",
+            "Value": {
+                "id": "5e6dda1f-8bae-4914-b7d6-2a38ff4bd537",
+                "resourcePath": "views\\ecc75589-8fa2-4235-a1ae-ff52152537b6.yy",
                 "resourceType": "GMFolder"
             }
         },
