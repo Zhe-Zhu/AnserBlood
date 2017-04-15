@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-state = st.attack;
+if (state == st.normal) state = st.attack;
+else exit;
 
 //====Animate
 sprite_index = sprPlayerAttack;
