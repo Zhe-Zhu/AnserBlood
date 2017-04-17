@@ -29,13 +29,15 @@ switch(state)
 {
 	case st.normal:
 	{
-		//script_execute(scr_animate);//当角色不移动的时候，不播放动画
+		sprite_index = sprPlayerWalk;
+		script_execute(scr_animate);//当角色不移动的时候，不播放动画
 		break;
 	}
 	
 	case st.attack:
 	{
-		
+		sprite_index = sprPlayerAttack;
+		script_execute(scr_attack);
 		break;
 	}
 
