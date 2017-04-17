@@ -1,6 +1,6 @@
 
-hspeed = walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
-vspeed = walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));
+hspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
+vspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));
 
 //collisions
 if hspeed!= 0
@@ -22,9 +22,9 @@ if vspeed!= 0
 }
 
 dir = point_direction(x,y,mouse_x,mouse_y);
-
 image_angle = dir;
 
+//状态机
 switch(state)
 {
 	case st.normal:

@@ -1,4 +1,4 @@
-walkingSpeed = 10;
+walkingSpeed = 7;
 depth = - 99;
 throwing = 0;
 

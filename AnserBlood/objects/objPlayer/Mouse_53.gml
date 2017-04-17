@@ -6,7 +6,7 @@ state = st.attack;
 image_index = 0;
 
 //屏幕抖动
-script_execute(scr_shake(14,25));
+script_execute(scr_shake(5));
 }
 
 
