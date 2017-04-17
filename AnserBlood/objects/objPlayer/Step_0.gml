@@ -1,3 +1,4 @@
+
 script_execute(scr_animate);
 
 hspeed = walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
