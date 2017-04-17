@@ -1,6 +1,4 @@
 
-script_execute(scr_animate);
-
 hspeed = walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
 vspeed = walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));
 
@@ -26,3 +24,25 @@ if vspeed!= 0
 dir = point_direction(x,y,mouse_x,mouse_y);
 
 image_angle = dir;
+
+switch(state)
+{
+	case st.normal:
+	{
+		//script_execute(scr_animate);//当角色不移动的时候，不播放动画
+		break;
+	}
+	
+	case st.attack:
+	{
+		
+		break;
+	}
+
+	case st.dead:
+	{
+		
+		break;
+	}
+}
+
