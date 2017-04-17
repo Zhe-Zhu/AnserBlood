@@ -1,4 +1,7 @@
 walkingSpeed = 10;
+depth = - 99;
+throwing = 0;
+
 
 instance_create_depth(x,y,2,objPlayerLegs);
 

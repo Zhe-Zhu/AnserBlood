@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1ea51747-7839-47c2-a83e-7a4a04927232",
+            "Value": {
+                "id": "e0aadedf-445c-4fe8-aa5f-2bd86f1c1ccb",
+                "resourcePath": "objects\\objWeaponKandao\\objWeaponKandao.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f6f01fc-c8da-4e6e-9af1-b4cb029e0c66",
             "Value": {
                 "id": "bd765387-cd06-4122-a45c-64605f16e58f",
@@ -139,6 +147,14 @@
             "Value": {
                 "id": "ee9b7a0c-b568-445a-9af6-4e08384cd109",
                 "resourcePath": "views\\2ff97d41-111d-4361-8a77-975c810358ea.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35af3d60-0687-4a36-9f40-7712d9f18642",
+            "Value": {
+                "id": "19e0a5d7-ff3b-4c09-9c44-504616294dd8",
+                "resourcePath": "views\\35af3d60-0687-4a36-9f40-7712d9f18642.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "656d6ace-ddae-421c-b608-2e38843431db",
+            "Value": {
+                "id": "67b84261-4944-4a0f-aeb8-64d08cd21dd9",
+                "resourcePath": "views\\656d6ace-ddae-421c-b608-2e38843431db.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6dc47422-61c6-4011-aeea-eb66fa86c8ac",
             "Value": {
                 "id": "3c074504-5dbb-4078-86ba-7a8f10157673",
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "7fbf326c-8236-43e7-965b-230418c838d6",
+            "Value": {
+                "id": "b270f74c-34cf-4d55-a8f1-2aaa9b411fdd",
+                "resourcePath": "sprites\\sprWeaponKandao\\sprWeaponKandao.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8080f55c-f417-4224-8051-bfd1988e950d",
             "Value": {
                 "id": "89c29f4b-29b7-4f35-a668-f784c7f2683f",
@@ -316,6 +348,14 @@
                 "id": "05d4d424-8cfe-4d54-8ba4-78590181bbfc",
                 "resourcePath": "sprites\\sprPlayerWalk\\sprPlayerWalk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8631f6d5-4efc-4d2c-805d-5625d11a1780",
+            "Value": {
+                "id": "0ceb0fa2-9b5c-446b-b1c2-974605b6cd11",
+                "resourcePath": "objects\\objWall\\objWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -387,10 +427,10 @@
             "Value": {
                 "id": "06858998-c49c-4891-8db3-f5bb7cf0bdc2",
                 "resourcePath": "sprites\\sprEnemyDead\\sprEnemyDead.yy",
-				"resourceType": "GMSprite"
-			}
-		},
-		{
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1bec6eb-69da-4b8f-8334-b5dd012d0d9c",
             "Value": {
                 "id": "1bfb93ef-c2bb-4fc6-a265-e94db212ecb6",
@@ -404,6 +444,14 @@
                 "id": "a23b64b2-73d1-42f3-addc-6a3a52512f5a",
                 "resourcePath": "views\\b3e52a76-e2ea-4559-bfe6-96cdfec2bf24.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b43fe752-1c12-485a-a19d-b2d4bc7a4f67",
+            "Value": {
+                "id": "306ab45a-c6b1-4446-9419-4c5e90ced05f",
+                "resourcePath": "sprites\\sprite_19\\sprite_19.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -516,6 +564,14 @@
                 "id": "a87118db-0b00-43e9-a6aa-0371d707b156",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7fcc74f-b4d6-4588-b70a-abf29e4273f5",
+            "Value": {
+                "id": "37a0b1a3-8990-4497-b1b0-961bf669934f",
+                "resourcePath": "sprites\\sprWeaponBlade\\sprWeaponBlade.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
