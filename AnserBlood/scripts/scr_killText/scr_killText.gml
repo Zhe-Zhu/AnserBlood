@@ -1,1 +1,1 @@
-instance_create_depth(x,y-20,-3,choose(objKillText1));
+instance_create_depth(x,y-20,-3,choose(objKillText1,objKillText2));
