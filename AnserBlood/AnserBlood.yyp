@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1f6f01fc-c8da-4e6e-9af1-b4cb029e0c66",
+            "Value": {
+                "id": "bd765387-cd06-4122-a45c-64605f16e58f",
+                "resourcePath": "sprites\\sprite_14\\sprite_14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "209b8963-051f-468a-be43-a2996ff86c8a",
             "Value": {
                 "id": "377a671a-40ed-40ea-8ebe-466a9c4bed74",
@@ -239,11 +247,27 @@
             }
         },
         {
+            "Key": "6dc47422-61c6-4011-aeea-eb66fa86c8ac",
+            "Value": {
+                "id": "3c074504-5dbb-4078-86ba-7a8f10157673",
+                "resourcePath": "sprites\\sprEnemyDeadChop\\sprEnemyDeadChop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "721baeff-397c-42a3-9066-be5dce35ed5a",
             "Value": {
                 "id": "3cd8ec8a-c770-4187-a35f-ee1de9008119",
                 "resourcePath": "views\\721baeff-397c-42a3-9066-be5dce35ed5a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "73a1057e-b851-4626-8f9d-fd855a53d29d",
+            "Value": {
+                "id": "75055ab3-59b3-4bc9-bf88-b5dd9cfa072d",
+                "resourcePath": "objects\\objGame\\objGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -363,6 +387,14 @@
             "Value": {
                 "id": "06858998-c49c-4891-8db3-f5bb7cf0bdc2",
                 "resourcePath": "sprites\\sprEnemyDead\\sprEnemyDead.yy",
+				"resourceType": "GMSprite"
+			}
+		},
+		{
+            "Key": "b1bec6eb-69da-4b8f-8334-b5dd012d0d9c",
+            "Value": {
+                "id": "1bfb93ef-c2bb-4fc6-a265-e94db212ecb6",
+                "resourcePath": "sprites\\sprEnemyDeadDart\\sprEnemyDeadDart.yy",
                 "resourceType": "GMSprite"
             }
         },
