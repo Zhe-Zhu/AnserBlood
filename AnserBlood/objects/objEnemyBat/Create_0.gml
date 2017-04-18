@@ -1,3 +1,9 @@
-PatrolSpeed = 5;
+state = scr_enemyStatic;
 
-state = st.normal;
+//variables
+aggroRange = 250;
+enemySpeed = 3;
+alerted = false;
+attackRange= 64;
+
+alive = 1;
