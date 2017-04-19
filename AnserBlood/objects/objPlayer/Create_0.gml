@@ -1,6 +1,9 @@
 walkingSpeed = 7;
 depth = - 99;
-throwing = 0;
+holding = 0;
+
+pullSpeed = 10;
+global.pulling = noone;
 
 
 instance_create_depth(x,y,2,objPlayerLegs);

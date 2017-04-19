@@ -2,7 +2,7 @@
     "id": "1f6f01fc-c8da-4e6e-9af1-b4cb029e0c66",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite_14",
+    "name": "sprEnemyDeadCutThroat",
     "For3D": false,
     "HTile": false,
     "VTile": false,
