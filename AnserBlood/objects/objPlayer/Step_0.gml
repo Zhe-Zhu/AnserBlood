@@ -1,3 +1,8 @@
+// check if the game is paused
+if global.gameSpeed <1
+{
+	exit;
+}
 
 hspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
 vspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));

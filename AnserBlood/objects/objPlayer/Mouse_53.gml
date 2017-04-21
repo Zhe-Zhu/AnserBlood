@@ -6,9 +6,8 @@ state = st.attack;
 image_index = 0;
 
 //屏幕抖动
-script_execute(scr_shake(5));
+objGame.shaking =1;
+objGame.shake += 13;
+
 }
 
-
-//Create Kill text
-//script_execute(scr_killText);

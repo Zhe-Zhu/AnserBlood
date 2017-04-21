@@ -5,6 +5,6 @@ speed *= 0.8;
 
 if speed <3 
 {
-	state = scr_enemyFollow;
+	state = scr_enemyStun;
 }
 
