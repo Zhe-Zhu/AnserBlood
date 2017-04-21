@@ -2,9 +2,9 @@
 //script_execute(scr_killText);
 objGame.zoom_level =0.75
 script_execute(scr_hitFeel)
-alive -= 0.25;
+alive -=1;
 
-if alive = 0 
+if alive <= 0 
 {
 instance_destroy()
 

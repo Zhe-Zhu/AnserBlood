@@ -7,7 +7,7 @@ image_index = 0;
 
 //屏幕抖动
 objGame.shaking =1;
-objGame.shake += 13;
+objGame.shake += 11;
 
 }
 
