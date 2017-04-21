@@ -20,7 +20,6 @@
         "9f23a814-ffaf-4579-b2f9-a63b6a1c03db",
         "7a6a2507-5e71-45b3-9dcc-5f0980310340",
         "bb402cbf-7eee-4e97-b008-5eca0aa63f79",
-        "a3009eaf-453a-4525-a080-c86a5cdba54f",
         "9eaa0080-e83c-404e-8832-e292927c1e4a",
         "0d4585d2-b82d-43c5-9ae4-b698742ac545",
         "39be95a1-6393-4c5b-9629-0be9eefce21e"
@@ -314,30 +313,6 @@
                     "scaleY": 1
                 },
                 {
-                    "id": "a3009eaf-453a-4525-a080-c86a5cdba54f",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_3C6D1FEB",
-                    "x": 96,
-                    "y": 128,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_3C6D1FEB",
-                    "objId": "8631f6d5-4efc-4d2c-805d-5625d11a1780",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
                     "id": "9eaa0080-e83c-404e-8832-e292927c1e4a",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
@@ -475,7 +450,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -488,7 +463,7 @@
             "hspeed": 10,
             "hview": 360,
             "inherit": false,
-            "objId": "00000000-0000-0000-0000-000000000000",
+            "objId": "8c58642d-fef1-413c-9642-62b88809be57",
             "vborder": 180,
             "visible": true,
             "vspeed": 10,

@@ -1,3 +1,8 @@
+// check if the game is paused
+if global.pausing = true
+{
+	exit;
+}
 
 //enemy state
 script_execute(state);
@@ -6,6 +11,7 @@ script_execute(state);
 
 
 //collisions
+
 if hspeed!= 0
 {if!place_free(x+hspeed,y)
     {
@@ -23,5 +29,4 @@ if vspeed!= 0
     vspeed = 0;
     }
 }
-
 
