@@ -57,3 +57,8 @@ if shaking = 1
 	{shaking = 0;}
 }
 
+if zoom_level < 1
+{
+	zoom_level +=0.008
+} else
+zoom_level = 1;

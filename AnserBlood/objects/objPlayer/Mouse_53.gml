@@ -8,6 +8,6 @@ image_index = 0;
 //屏幕抖动
 objGame.shaking =1;
 objGame.shake += 11;
-
+objGame.zoom_level = 0.85;
 }
 

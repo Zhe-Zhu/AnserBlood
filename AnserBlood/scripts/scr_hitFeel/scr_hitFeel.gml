@@ -1,6 +1,6 @@
 
 
-var time = current_time, ms = 10;
+var time = current_time, ms = 20;
 	
     do { } 
     until( ( current_time - time ) >= round( ms )) {};
