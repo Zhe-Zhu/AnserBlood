@@ -1,5 +1,5 @@
 //摄像机角度偏斜
-camera_set_view_angle(view_camera[0], (mouse_x -objPlayer.x)/180);
+camera_set_view_angle(view_camera[0], (mouse_x -objPlayer.x)/230);
 
 //重启游戏
 if keyboard_check(ord("R"))

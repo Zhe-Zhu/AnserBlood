@@ -1,7 +1,7 @@
 
 //script_execute(scr_killText);
-objGame.zoom_level =0.75
-script_execute(scr_hitFeel)
+
+//script_execute(scr_hitFeel)
 alive -=1;
 
 if alive <= 0 
