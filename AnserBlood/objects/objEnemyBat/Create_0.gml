@@ -1,5 +1,7 @@
-state = scr_enemyStatic;
 
+
+event_inherited();
+state = scr_enemyStatic;
 //variables
 aggroRange = 250;
 enemySpeed = 3;

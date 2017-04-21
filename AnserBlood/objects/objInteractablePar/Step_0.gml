@@ -1,3 +1,4 @@
+//collisions
 if hspeed!= 0
 {if!place_free(x+hspeed,y)
     {
@@ -16,5 +17,4 @@ if vspeed!= 0
     }
 }
 
-
-image_angle = direction;
+script_execute(state);

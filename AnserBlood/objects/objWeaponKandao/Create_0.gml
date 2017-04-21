@@ -1,1 +1,3 @@
-throwing = 0;
+event_inherited();
+
+throwMul = 4;
