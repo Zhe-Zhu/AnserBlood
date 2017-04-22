@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "22d0cf65-c481-4714-9cfb-dfe430f0428e",
+            "Value": {
+                "id": "be73277e-659e-4fb2-8a0b-0306e1df0020",
+                "resourcePath": "objects\\objBloodParticle\\objBloodParticle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23117e30-2482-474e-bd85-028d67a3a120",
             "Value": {
                 "id": "55079fcd-ec9d-46fc-add1-c64f65c031ee",
