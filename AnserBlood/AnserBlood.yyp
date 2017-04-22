@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "382f03de-5531-4fc2-b0c1-706464b1cb8b",
+            "Value": {
+                "id": "1aafa456-471a-413c-b2cc-3507cdfcdd25",
+                "resourcePath": "sprites\\sprBloodParticle\\sprBloodParticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3830cc90-27be-413c-84a2-36fa1e97f6d3",
             "Value": {
                 "id": "a1d93e4f-e194-4ddc-8098-20b8a86de6e9",
@@ -548,6 +556,14 @@
                 "id": "aeb4bbb3-8ad2-4655-a51b-661e52190e9a",
                 "resourcePath": "sprites\\sprEnemyDeadSlashP2a_1\\sprEnemyDeadSlashP2a_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9854029a-46c8-44e6-9303-0f0e60798478",
+            "Value": {
+                "id": "3ecd99fd-49ea-468b-86c3-00b26833a6a3",
+                "resourcePath": "objects\\objBloodParticle\\objBloodParticle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
