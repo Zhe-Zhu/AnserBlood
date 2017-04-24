@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "175871e4-f6cf-40e8-9f25-6199fc48e6ff",
-            "Value": {
-                "id": "cbf94d1b-4558-407f-851d-6452f16397f1",
-                "resourcePath": "scripts\\scr_hitFeel\\scr_hitFeel.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "177a6bcd-84be-45fd-9358-7ca7bc8162a4",
             "Value": {
                 "id": "3c6fd6c8-7848-4611-b81c-39a4c27dc10d",
@@ -92,14 +84,6 @@
                 "id": "c23920b8-2f78-4164-bb01-bc4e99b6fac5",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1be95eee-6ac1-4660-bb19-43f19af2b1b9",
-            "Value": {
-                "id": "ac352b70-0a07-400f-af07-4b804df14d03",
-                "resourcePath": "sprites\\sprBloodSmoke1\\sprBloodSmoke1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,19 +111,19 @@
             }
         },
         {
-            "Key": "209b8963-051f-468a-be43-a2996ff86c8a",
-            "Value": {
-                "id": "377a671a-40ed-40ea-8ebe-466a9c4bed74",
-                "resourcePath": "sprites\\sprBloodSquirt1\\sprBloodSquirt1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "20d9e8d9-aaea-43e3-a51a-70a1dccacc77",
             "Value": {
                 "id": "d4f1d4fc-307a-41d1-9d56-b0b58d78b78f",
                 "resourcePath": "views\\20d9e8d9-aaea-43e3-a51a-70a1dccacc77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2115784e-22e8-4b48-ba72-d513948f9988",
+            "Value": {
+                "id": "da5f6fdd-b9c5-4ab1-a59d-8146a88c418b",
+                "resourcePath": "scripts\\scr_bloodSplat\\scr_bloodSplat.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,6 +399,14 @@
             }
         },
         {
+            "Key": "72c2ba79-8cd1-483d-87aa-680f14d267f9",
+            "Value": {
+                "id": "4269fbc8-5978-428e-bf25-71601306b6fa",
+                "resourcePath": "objects\\objBloodPool\\objBloodPool.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "72f873b2-812a-4b7e-818d-d372803a1b29",
             "Value": {
                 "id": "d89ab3a0-8301-4465-b654-d06b094977c9",
@@ -551,14 +543,6 @@
             }
         },
         {
-            "Key": "9073b556-2a15-4faf-bfe4-275a40793e6b",
-            "Value": {
-                "id": "bd94bcfc-360a-4379-a837-a9fa688cd987",
-                "resourcePath": "sprites\\sprBloodSquirt2\\sprBloodSquirt2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "92680015-c918-4276-b53f-5d9dff3b4716",
             "Value": {
                 "id": "3a0f15bc-539e-4b24-be46-d57eaad2eba0",
@@ -571,6 +555,14 @@
             "Value": {
                 "id": "aeb4bbb3-8ad2-4655-a51b-661e52190e9a",
                 "resourcePath": "sprites\\sprEnemyDeadSlashP2a_1\\sprEnemyDeadSlashP2a_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9848afbf-1496-40bd-b16f-6a2d221fc0eb",
+            "Value": {
+                "id": "be33e536-3645-41c1-b89e-c53284437891",
+                "resourcePath": "sprites\\sprBloodSplat4\\sprBloodSplat4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -735,14 +727,6 @@
             }
         },
         {
-            "Key": "d0233fa8-d028-4e1c-b5eb-b57c2a5a3089",
-            "Value": {
-                "id": "d8bf63be-45e5-44ee-b980-4bd80df54599",
-                "resourcePath": "sprites\\sprBloodSmoke2\\sprBloodSmoke2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d516a709-2e62-457b-98a2-00c8acdce7f9",
             "Value": {
                 "id": "b28d8bbf-1163-4294-92de-71343aa37375",
@@ -868,7 +852,7 @@
         "ea273b17-8b9f-46f3-a45b-5a190df746ae",
         "2a5e77c2-1ead-425c-b02f-bd61b13505ab",
         "23117e30-2482-474e-bd85-028d67a3a120",
-        "175871e4-f6cf-40e8-9f25-6199fc48e6ff"
+        "2115784e-22e8-4b48-ba72-d513948f9988"
     ],
     "tutorial": ""
 }

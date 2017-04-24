@@ -8,7 +8,8 @@ direction = point_direction(objPlayer.x,objPlayer.y,x,y);
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately
-bloodChance = 50;              //blood amount/chance to spawn
+bloodSplatChance = 30;              //blood amount/chance to spawn
+bloodPartileChance = 40;              //blood amount/chance to spawn
 bloodTimer = 5+irandom(10);  //bleed duration
 bloodDir = random(360);       //bleed direction
 bloodRandDir = 20;            //bleed direction randomization
