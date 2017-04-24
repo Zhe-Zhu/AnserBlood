@@ -20,8 +20,8 @@ view_enabled = true;
 view_set_visible(target_view, true);
 
 //Set the port bounds of view 0 to 640x480
-view_set_wport(target_view, 640);
-view_set_hport(target_view, 480);
+view_set_wport(target_view, 1280);
+view_set_hport(target_view, 960);
 
 //Resize and center
 window_set_rectangle((display_get_width() - view_wport[target_view]) * 0.5, (display_get_height() - view_hport[target_view]) * 0.5, view_wport[target_view], view_hport[target_view]);

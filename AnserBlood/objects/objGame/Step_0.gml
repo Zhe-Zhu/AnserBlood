@@ -1,5 +1,5 @@
 //摄像机角度偏斜
-camera_set_view_angle(view_camera[0], (mouse_x -objPlayer.x)/180);
+camera_set_view_angle(view_camera[0], (mouse_x -objPlayer.x)/230);
 
 //重启游戏
 if keyboard_check(ord("R"))
@@ -57,3 +57,8 @@ if shaking = 1
 	{shaking = 0;}
 }
 
+if zoom_level < 1
+{
+	zoom_level +=0.008
+} else
+zoom_level = 1;
