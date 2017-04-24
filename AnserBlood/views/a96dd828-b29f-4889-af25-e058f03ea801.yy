@@ -23,7 +23,8 @@
         "b1bec6eb-69da-4b8f-8334-b5dd012d0d9c",
         "6dc47422-61c6-4011-aeea-eb66fa86c8ac",
         "1f6f01fc-c8da-4e6e-9af1-b4cb029e0c66",
-        "8e2c4c54-a248-4f03-8561-c139139faf2e"
+        "8e2c4c54-a248-4f03-8561-c139139faf2e",
+        "9b08664e-7711-4d1e-bf6e-d133dde9d065"
     ],
     "filterType": "GMSprite",
     "folderName": "enemy",
