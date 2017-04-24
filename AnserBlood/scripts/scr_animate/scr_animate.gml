@@ -1,6 +1,6 @@
 ///scr_animate
 
-if (hspeed != 0 || vspeed != 0)
+if (hspeed != 0 || vspeed != 0 || state == scr_enemyAttack)
 {
     image_speed = 1;
 }   else    
