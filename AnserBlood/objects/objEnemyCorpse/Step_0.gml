@@ -16,8 +16,8 @@ if bloodTimer > 0 {
 		_x = x-lengthdir_x(30,image_angle)+random_range(-bloodRandPos,bloodRandPos);
 		_y = y-lengthdir_y(30,image_angle)+random_range(-bloodRandPos,bloodRandPos);
 		with(instance_create_depth(_x,_y,-1,objBloodParticle)) {
-			speed = random_range(6,12);
-			direction = random(360);
+			speed = random_range(11,16);
+			direction = other.fallDir + random_range(-60,60);
 			image_angle = direction;
 		}
 	}

@@ -11,5 +11,5 @@ if speed > 0 {
 	}
 	
 	// Scale
-	drawXScale = 1+speed*0.6;
+	drawXScale = 1+speed*0.8;
 }
