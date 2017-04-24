@@ -2,7 +2,7 @@
     "id": "ad29667d-5817-4273-a9fc-a2ad9ca46bb7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spriEnemyDeadBlunt3",
+    "name": "sprEnemyDeadBlunt3",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -53,7 +53,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "sepmasks": false,
@@ -62,6 +62,6 @@
     "textureGroup": 0,
     "type": 0,
     "width": 60,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 30,
+    "yorig": 30
 }
