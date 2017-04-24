@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "57dcb6d5-5f04-4457-b4fb-4726a55b973d",
+            "Value": {
+                "id": "cbee2c18-cafc-4e8f-a07e-4d803e5b93fe",
+                "resourcePath": "objects\\objBloodParticle\\objBloodParticle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5aefa7ba-105e-46cf-b5da-4bf7939761c8",
             "Value": {
                 "id": "2cb6f3e1-22a8-41b3-bb3b-4dfa3eadbe06",
@@ -507,6 +515,14 @@
             "Value": {
                 "id": "0ceb0fa2-9b5c-446b-b1c2-974605b6cd11",
                 "resourcePath": "objects\\objWall\\objWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87113bfe-860c-4a99-ad31-d20c47373c00",
+            "Value": {
+                "id": "4842cb0c-1a17-4d2b-8a56-d94efdf221b3",
+                "resourcePath": "objects\\objBloodSplat\\objBloodSplat.yy",
                 "resourceType": "GMObject"
             }
         },
