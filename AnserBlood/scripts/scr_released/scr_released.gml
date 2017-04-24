@@ -5,7 +5,7 @@ if speed > 15
 direction = point_direction(x,y,mouse_x,mouse_y);
 }
 
-speed *= 0.8;
+speed *= 0.85;
 
 if speed <3 
 {
@@ -13,3 +13,4 @@ if speed <3
 	speed = 0 ; 
 }
 
+objPlayer.canPull =20;

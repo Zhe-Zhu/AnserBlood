@@ -20,7 +20,8 @@
         "bb402cbf-7eee-4e97-b008-5eca0aa63f79",
         "9eaa0080-e83c-404e-8832-e292927c1e4a",
         "0d4585d2-b82d-43c5-9ae4-b698742ac545",
-        "39be95a1-6393-4c5b-9629-0be9eefce21e"
+        "39be95a1-6393-4c5b-9629-0be9eefce21e",
+        "5adc8391-0825-4adf-adca-499d9ce9cfd6"
     ],
     "layers": [
         {
@@ -333,6 +334,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "5adc8391-0825-4adf-adca-499d9ce9cfd6",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_7E63704E",
+                    "x": 384,
+                    "y": 224,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_7E63704E",
+                    "objId": "b6c61f86-094f-4e57-ba7c-f9550ca1d35e",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -398,7 +423,7 @@
         "id": "4f93496e-f8ef-4f38-b783-558f32f8091c",
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0",
-        "clearDisplayBuffer": true,
+        "clearDisplayBuffer": false,
         "clearViewBackground": false,
         "enableViews": true,
         "inheritViewSettings": false

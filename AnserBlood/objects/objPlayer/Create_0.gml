@@ -1,8 +1,9 @@
-walkingSpeed = 5;
+walkingSpeed = 4;
 depth = - 99;
 holding = 0;
 
-pullSpeed = 10;
+canPull = 20;
+pullSpeed = 7;
 global.pulling = noone;
 
 
