@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// 攻击
 // You can write your code in this editor
 if (state == st.normal)
 {
@@ -7,7 +7,7 @@ image_index = 0;
 
 //屏幕抖动
 objGame.shaking =1;
-objGame.shake += 11;
-
+objGame.shake += random_range(7,10);
+objGame.zoom_level = 0.9;
 }
 
