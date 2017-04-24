@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "098ad16b-5847-4476-8e2c-2f5bf31a087a",
+            "Value": {
+                "id": "1dc4f291-e656-4e56-a7ac-f7a317a99cdb",
+                "resourcePath": "sprites\\sprBloodSplat3\\sprBloodSplat3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11313a99-dd93-4c44-a1f9-53d77eb66311",
             "Value": {
                 "id": "ee822ed9-d4f1-4b50-92b3-e10dc9fd841a",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "99e22890-71b1-4d2f-b8d3-6db8a96e9fce",
+            "Value": {
+                "id": "8b3b5e85-9c32-43d2-a88c-97cadb1d98ab",
+                "resourcePath": "sprites\\sprBloodSplat2\\sprBloodSplat2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9fde8e02-0c07-434b-a618-3d5cd61f58cc",
             "Value": {
                 "id": "7b8e0678-945a-409d-b4f8-e6d3d2560094",
@@ -767,11 +783,27 @@
             }
         },
         {
+            "Key": "d833e039-0d4e-480c-89e9-fabea9d7affc",
+            "Value": {
+                "id": "e8c20940-0fba-4c47-9fad-0b564f3f7445",
+                "resourcePath": "sprites\\sprBloodSplat1\\sprBloodSplat1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc9390fb-b8b9-4235-964b-816df3c2a11d",
             "Value": {
                 "id": "a35c6560-ff50-4521-a2e3-0b1ec61fdf65",
                 "resourcePath": "views\\dc9390fb-b8b9-4235-964b-816df3c2a11d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dfdedaef-29dd-44a3-83f3-e6fe30845e43",
+            "Value": {
+                "id": "20b23ab3-7dc2-453a-b5eb-4d82f326271f",
+                "resourcePath": "sprites\\sprBloodParticle\\sprBloodParticle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
