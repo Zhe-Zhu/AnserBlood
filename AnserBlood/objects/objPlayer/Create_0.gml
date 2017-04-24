@@ -1,4 +1,4 @@
-walkingSpeed = 4;
+walkingSpeed = 3.5;
 depth = - 99;
 holding = 0;
 

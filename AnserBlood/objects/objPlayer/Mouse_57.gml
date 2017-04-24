@@ -7,3 +7,5 @@ if global.pulling != 0
 	}
 	holding = 0;
 }
+
+objPlayer.canPull =20;

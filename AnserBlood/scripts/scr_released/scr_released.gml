@@ -13,4 +13,3 @@ if speed <3
 	speed = 0 ; 
 }
 
-objPlayer.canPull =20;
