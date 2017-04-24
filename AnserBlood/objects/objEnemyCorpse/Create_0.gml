@@ -2,6 +2,7 @@ sprite_index = choose
 (sprEnemyDeadChop,sprEnemyDead,sprEnemyDeadCutThroat,
 sprEnemyDeadBlunt1,sprEnemyDeadBlunt2,sprEnemyDeadBlunt3,sprEnemyDeadBlunt4,sprEnemyDeadBlunt5,sprEnemyDeadBlunt6);
 
+isFalling = 0;
 
 image_xscale = -1;
 fallDir = point_direction(x,y,objPlayer.x,objPlayer.y);

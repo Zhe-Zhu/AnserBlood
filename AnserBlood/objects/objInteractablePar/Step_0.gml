@@ -18,3 +18,17 @@ if vspeed!= 0
 }
 
 script_execute(state);
+
+if position_meeting(x,y,objAir)
+{
+	isFalling = 1
+
+	image_xscale -= 0.05;
+	image_yscale = image_xscale;
+	speed *= 0.2;
+}
+
+if image_xscale <= 0.1
+{
+	instance_destroy();
+}

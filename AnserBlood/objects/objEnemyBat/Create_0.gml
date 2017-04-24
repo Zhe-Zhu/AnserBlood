@@ -2,7 +2,7 @@ event_inherited();
 state = scr_enemyStatic;
 //variables
 aggroRange = 250;
-enemySpeed = 2;
+enemySpeed = 1.2;
 alerted = false;
 attackRange= 30;
 

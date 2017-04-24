@@ -9,11 +9,11 @@ yy = other.y
 instance_destroy();
 
 //创建尸体
-with instance_create_depth(x,y,-1,objEnemyCorpse)
+with instance_create_depth(x,y,-2,objEnemyCorpse)
 	image_angle = point_direction(x,y,other.xx,other.yy);
 
 //敌人武器掉落
-with instance_create_depth(x,y,-1,objWeaponKandao)
+with instance_create_depth(x,y,-2,objWeaponKandao)
 	{
 	speed = 12;
 	direction = random(360)
