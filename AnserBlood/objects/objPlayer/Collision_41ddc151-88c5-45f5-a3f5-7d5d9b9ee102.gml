@@ -9,6 +9,7 @@ if (visible == true)
 {
 	with instance_create_depth(x,y,-y,objPlayerDead)
 		image_angle = objPlayer.image_angle;
+	instance_destroy(objPlayerLegs);
 }
 
 visible = false;
