@@ -5,12 +5,14 @@ depth = -10;
 move_bounce_solid(true);
 script_execute(scr_bloodSplat);
 
+//停下后制造血滩
 if speed <= 1
 {
 	speed = 0;
 	instance_create_depth(x,y,5,objBloodPool);
 }
 
+//掉落悬崖
 if position_meeting(x,y,objAir)
 {
 	isFalling = 1

@@ -8,5 +8,9 @@ attackRange= 30;
 
 alive = 1;
 
+attackSprite = sprEnemyAttackBat;
+normalSprite = sprEnemyWalkBat;
+corpse = objEnemyCorpseBat;
+
 targetX = objPlayer.x + lengthdir_x(10,point_direction(objPlayer.x,objPlayer.y,mouse_x, mouse_y));
 targetY = objPlayer.y + lengthdir_y(10,point_direction(objPlayer.x,objPlayer.y,mouse_x, mouse_y));

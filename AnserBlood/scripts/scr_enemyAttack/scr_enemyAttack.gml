@@ -1,4 +1,4 @@
-sprite_index = sprEnemyAttackBat;
+sprite_index = attackSprite;
 
 if (image_index == (image_number - 1))
 {
