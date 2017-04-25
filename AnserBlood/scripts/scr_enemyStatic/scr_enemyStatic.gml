@@ -3,9 +3,10 @@ var dis = point_distance(x,y,objPlayer.x,objPlayer.y);
 var dir = point_direction(x,y,objPlayer.x,objPlayer.y);
 
 //敌人的视野范围
+// 视野范围设定为面对方向的60度弧形
+// 就算进入追击状态，当视野范围内丢失玩家一段时间后，会重新进入static状态（待更新）
 
-
-if (dis <= aggroRange)
+if (dis <= aggroRange and (abs(dir - direction) <= viewAngle))
 {
     state = scr_enemyFollow;
 }

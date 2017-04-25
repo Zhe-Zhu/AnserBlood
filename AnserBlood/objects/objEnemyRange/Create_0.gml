@@ -3,7 +3,7 @@ state = scr_enemyStatic;
 //variables
 enemySpeed = 1.2;
 alerted = false;
-attackRange= 30;
+attackRange= 100;
 
 alive = 1;
 

@@ -2,7 +2,6 @@ var dis = point_distance(x,y, objPlayer.x, objPlayer.y);
 
 if(!collision_line(x,y,objPlayer.x,objPlayer.y,objWall,1,1)) alerted = true;
 
-
 if (alerted == true) and (dis <= aggroRange) and (dis > attackRange) and isFalling = 0
 {
     mp_potential_step(objPlayer.x, objPlayer.y, enemySpeed, false);

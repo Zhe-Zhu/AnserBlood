@@ -1,7 +1,9 @@
 
 state = scr_enemyStatic;
+attInterval = 12;
+cooldown = attInterval;
+
 //variables
-aggroRange = 250;
 enemySpeed = 1.2;
 alerted = false;
 attackRange= 30;
@@ -26,3 +28,7 @@ bloodTimer = 5+irandom(10);  //bleed duration
 bloodDir = random(360);       //bleed direction
 bloodRandDir = 20;            //bleed direction randomization
 bloodRandPos = 10;            //bleed position randomization
+
+// View range settings
+viewAngle = 30;                  // -+30 degree
+aggroRange = 120;
