@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "272ff096-1f69-444b-a4e9-e79b63de0c1c",
+            "Value": {
+                "id": "101d32d2-9232-422a-bd5a-b3f6d334fbe5",
+                "resourcePath": "objects\\objKillingSpree\\objKillingSpree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28cb3bae-c686-4d6c-b756-809329a50a64",
             "Value": {
                 "id": "9c869e52-c809-4950-92d6-1cd1fa50a292",
@@ -691,6 +699,14 @@
             "Value": {
                 "id": "90d1796e-f7d2-4108-9f91-0a1923731d1a",
                 "resourcePath": "sprites\\sprEnemyDeadSlashP4\\sprEnemyDeadSlashP4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a38f271e-f432-49ae-b928-13dec5e86603",
+            "Value": {
+                "id": "26015508-fa76-4222-bc74-6c623120857a",
+                "resourcePath": "sprites\\sprKillingSpree\\sprKillingSpree.yy",
                 "resourceType": "GMSprite"
             }
         },

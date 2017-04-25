@@ -2,6 +2,7 @@
 global.timeMul = 1;
 global.gameSpeed = 30;
 global.pausing = 0;
+global.killCount = 0;
 
 shaking = 0;
 shake = 0;

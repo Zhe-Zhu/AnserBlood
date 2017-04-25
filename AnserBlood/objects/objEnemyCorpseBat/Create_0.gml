@@ -10,6 +10,8 @@ image_angle = fallDir;
 speed = 8;
 direction = point_direction(objPlayer.x,objPlayer.y,x,y);
 
+global.killCount ++;
+
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately

@@ -8,6 +8,12 @@ if keyboard_check(ord("R"))
 game_restart();
 }
 
+//连杀显示
+if global.killCount >= 5
+{
+	instance_create_depth(x,y,-100,objKillingSpree);
+}
+
 
 //Get target view position and size. size is halved so the view will focus around its center
 var vpos_x = camera_get_view_x(view_camera[target_view]);
