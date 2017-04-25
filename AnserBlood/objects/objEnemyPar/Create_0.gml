@@ -1,4 +1,4 @@
-
+event_inherited();
 state = scr_enemyStatic;
 //variables
 aggroRange = 250;
@@ -15,8 +15,6 @@ throwMul = 2;
 
 fallDir = point_direction(x,y,objPlayer.x,objPlayer.y);
 
-targetX = objPlayer.x + lengthdir_x(10,point_direction(objPlayer.x,objPlayer.y,mouse_x, mouse_y));
-targetY = objPlayer.y + lengthdir_y(10,point_direction(objPlayer.x,objPlayer.y,mouse_x, mouse_y));
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately

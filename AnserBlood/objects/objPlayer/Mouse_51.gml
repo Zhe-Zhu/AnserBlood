@@ -3,10 +3,9 @@ if holding =0
 {
 	with collision_line(x,y,mouse_x,mouse_y,objInteractablePar,false,true) 
 	{
+		 global.pulling = id;
 		//需要isfalling来判断
-		global.pulling = id;
-		image_blend = make_colour_hsv(255, 192, 128);
-		state = scr_pulled;
+		isPulled = 1;
 		
 	}
 	holding = 1;
