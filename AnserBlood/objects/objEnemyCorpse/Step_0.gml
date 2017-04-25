@@ -17,9 +17,10 @@ if position_meeting(x,y,objAir)
 	image_xscale -= 0.05;
 	image_yscale = image_xscale;
 	speed *= 0.2;
+	
+	if image_xscale <= 0.1
+	{
+	instance_destroy();
+	}
 }
 
-if image_xscale <= 0.1
-{
-	instance_destroy();
-}

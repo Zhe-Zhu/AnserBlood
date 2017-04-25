@@ -7,7 +7,7 @@ yy = other.y
 //创建尸体
 if (visible == true)
 {
-	with instance_create_depth(x,y,-y,objPlayerDead)
+	with instance_create_depth(x,y,-1,objPlayerDead)
 		image_angle = objPlayer.image_angle;
 }
 
