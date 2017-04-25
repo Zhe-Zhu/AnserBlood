@@ -19,5 +19,5 @@ else if (alerted == true) and (dis <= attackRange)
 }   else    {
     state = scr_enemyStatic;
     alerted = false;
-    sprite_index = sprEnemyWalkBat;
+    sprite_index = normalSprite;
 }
