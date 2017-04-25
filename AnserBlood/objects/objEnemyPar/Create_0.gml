@@ -32,3 +32,4 @@ bloodRandPos = 10;            //bleed position randomization
 // View range settings
 viewAngle = 30;                  // -+30 degree
 aggroRange = 120;
+giveupRange = 270;               // not to pursuit
