@@ -231,14 +231,6 @@
             }
         },
         {
-            "Key": "2f0aad93-db9f-4ac5-bfcd-a7b70ba545a9",
-            "Value": {
-                "id": "4adc5d46-86c7-4974-83ee-14f5b97771f9",
-                "resourcePath": "objects\\objPlayer2\\objPlayer2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2ff97d41-111d-4361-8a77-975c810358ea",
             "Value": {
                 "id": "ee9b7a0c-b568-445a-9af6-4e08384cd109",
