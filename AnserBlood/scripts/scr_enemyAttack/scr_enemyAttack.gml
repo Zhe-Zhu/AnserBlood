@@ -1,3 +1,24 @@
+
+if (object_index == objEnemyRange)
+{
+	if (cooldown == 0)
+	{
+		with(instance_create_depth(x, y, -y, objBullet))
+		{
+			speed = 10;
+			direction = point_direction(x, y, objPlayer.x, objPlayer.y);
+		}
+		cooldown = attInterval;
+	}	
+	else
+	{
+		cooldown -= 1
+	}
+}
+
+
+
+
 sprite_index = attackSprite;
 
 if (image_index == (image_number - 1))
@@ -15,3 +36,4 @@ else if (image_index == 2)
 	}
 
 }
+

@@ -5,7 +5,6 @@ holding = 0;
 pullSpeed = 7;
 global.pulling = noone;
 
-
 instance_create_depth(x,y,2,objPlayerLegs);
 
 enum st
