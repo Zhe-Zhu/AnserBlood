@@ -7,6 +7,7 @@ firing = false;
 global.pulling = noone;
 
 instance_create_depth(x,y,2,objPlayerLegs);
+instance_create_depth(x,y,0,objPlayer1Cam)
 
 enum st
 {

@@ -14,22 +14,30 @@ if global.killCount >= 5
 	instance_create_depth(x,y,-100,objKillingSpree);
 }
 
-
+/*
 //Get target view position and size. size is halved so the view will focus around its center
 var vpos_x = camera_get_view_x(view_camera[target_view]);
 var vpos_y = camera_get_view_y(view_camera[target_view]);
 var vpos_w = camera_get_view_width(view_camera[target_view]) * 0.5;
 var vpos_h = camera_get_view_height(view_camera[target_view]) * 0.5;
 
+var vpos_x2 = camera_get_view_x(view_camera[target_view2]);
+var vpos_y2 = camera_get_view_y(view_camera[target_view2]);
+var vpos_w2 = camera_get_view_width(view_camera[target_view2]) * 0.5;
+var vpos_h2 = camera_get_view_height(view_camera[target_view2]) * 0.5;
 //The interpolation rate
 var rate = 0.2;
 
 //Interpolate the view position to the new, relative position.
-var new_x = lerp(vpos_x, objCamera.x - vpos_w, rate);
-var new_y = lerp(vpos_y, objCamera.y - vpos_h, rate);
+var new_x = lerp(vpos_x, objPlayer.x - vpos_w, rate);
+var new_y = lerp(vpos_y, objPlayer.y - vpos_h, rate);
+
+var new_x2 = lerp(vpos_x2, objPlayer2.x - vpos_w2, rate);
+var new_y2 = lerp(vpos_y2, objPlayer2.y - vpos_h2, rate);
 
 //Update the view position
 camera_set_view_pos(view_camera[target_view], new_x, new_y);
+camera_set_view_pos(view_camera[target_view2], new_x2, new_y2);
 
 //Move the zoom level based on mouse scrolling. Clamp the value so stuff doesn't get too silly.
 zoom_level = clamp(zoom_level + (((mouse_wheel_down() - mouse_wheel_up())) * 0.2), 0.2, 5);
@@ -55,7 +63,7 @@ var shift_y = camera_get_view_y(view_camera[target_view]) - (new_h - view_h) * 0
 //Update the view position
 camera_set_view_pos(view_camera[target_view],shift_x, shift_y);
 
-*/
+
 if shaking = 1
 {
 	script_execute(scr_shake);
