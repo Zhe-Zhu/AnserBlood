@@ -12,6 +12,7 @@ enum st
 {
 	normal,
 	attack,
-	dead
+	dead,
+	shoot
 }
 state = st.normal;

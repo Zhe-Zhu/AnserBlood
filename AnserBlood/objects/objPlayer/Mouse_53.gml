@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (state == st.normal)
 {
-state = st.attack;
+state = st.shoot;
 image_index = 0;
 
 //屏幕抖动

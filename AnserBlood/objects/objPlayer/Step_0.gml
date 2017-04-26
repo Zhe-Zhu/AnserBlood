@@ -40,6 +40,12 @@ switch(state)
 		script_execute(scr_attack);
 		break;
 	}
+	case st.shoot:
+	{
+		sprite_index = sprPlayerAttack;
+		script_execute(scr_shoot);
+		break;
+	}
 	case st.dead:
 	{
 		break;
