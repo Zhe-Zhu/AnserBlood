@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2f0aad93-db9f-4ac5-bfcd-a7b70ba545a9",
+            "Value": {
+                "id": "4adc5d46-86c7-4974-83ee-14f5b97771f9",
+                "resourcePath": "objects\\objPlayer2\\objPlayer2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ff97d41-111d-4361-8a77-975c810358ea",
             "Value": {
                 "id": "ee9b7a0c-b568-445a-9af6-4e08384cd109",
@@ -1052,9 +1060,8 @@
         "2a5e77c2-1ead-425c-b02f-bd61b13505ab",
         "23117e30-2482-474e-bd85-028d67a3a120",
         "2115784e-22e8-4b48-ba72-d513948f9988",
-
+        "acc2bd9d-7152-4470-a495-8a8ad8cb419d",
         "a5c557f9-afaa-4c6e-9021-da15d7d0d7b1"
-
     ],
     "tutorial": ""
 }

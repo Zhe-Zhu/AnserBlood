@@ -1,7 +1,7 @@
 event_inherited();
 
 throwMul = 0.1;
-alive = 5;
+alive = 12;
 
 attackSprite = sprEnemyWalkElite;
 normalSprite = sprEnemyWalkElite;

@@ -6,7 +6,7 @@ enemySpeed = 1.2;
 alerted = false;
 attackRange= 30;
 
-alive = 1;
+alive = 5;
 
 
 attackSprite = sprEnemyAttackBat;

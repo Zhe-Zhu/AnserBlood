@@ -7,33 +7,33 @@ if global.gameSpeed <1
 //状态机
 switch(state)
 {
-	case st.normal:
+	case st2.normal:
 	{
 		sprite_index = sprPlayerWalk;
 		script_execute(scr_animate);//当角色不移动的时候，不播放动画
 		break;
 	}
-	case st.attack:
+	case st2.attack:
 	{
 		sprite_index = sprPlayerAttack;
 		script_execute(scr_attack);
 		break;
 	}
-	case st.shoot:
+	case st2.shoot:
 	{
 		sprite_index = sprPlayerAttack;
 		script_execute(scr_shoot);
 		break;
 	}
-	case st.dead:
+	case st2.dead:
 	{
 		exit;
 		break;
 	}
 }
 
-hspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
-vspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));
+hspeed = global.timeMul * walkingSpeed * (keyboard_check(vk_right) - keyboard_check(vk_left));
+vspeed = global.timeMul * walkingSpeed * (keyboard_check(vk_down) - keyboard_check(vk_up));
 //collisions
 if hspeed!= 0
 {if!place_free(x+hspeed,y)

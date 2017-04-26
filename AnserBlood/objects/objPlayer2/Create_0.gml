@@ -8,7 +8,7 @@ global.pulling = noone;
 
 instance_create_depth(x,y,2,objPlayerLegs);
 
-enum st
+enum st2
 {
 	normal,
 	attack,
