@@ -1,11 +1,11 @@
-if global.pulling != 0
+if global.pulling != noone
 {
 	with global.pulling
 	{
+		speed = 15 * mass /6
 		state = scr_released;
-		speed = 20 * throwMul;
+		isPulled = 0;
+		curMass = mass;
 	}
 	holding = 0;
 }
-
-objPlayer.canPull =20;
