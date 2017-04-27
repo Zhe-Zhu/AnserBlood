@@ -70,8 +70,7 @@ if (gamepad_button_check(0, gp_shoulderr))
 		}
 }
 
-//PICKING UP STUFF
-
+//PICKING UP STUFF AND THROWING STUFF
 if (gamepad_button_check_pressed(0, gp_face2))
 {
 	if arm = 0

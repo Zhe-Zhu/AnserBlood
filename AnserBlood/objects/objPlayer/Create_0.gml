@@ -2,6 +2,8 @@ hspd = 0
 vspd = 0
 walkingSpeed = 3.5;
 fric = 2;
+hp = 100;
+hpMax = 100;
 
 depth = - 99;
 arm = 0;
