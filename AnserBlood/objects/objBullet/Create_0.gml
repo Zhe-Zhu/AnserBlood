@@ -2,8 +2,8 @@ event_inherited();
 bulletSpeed = 15;
 bulletDeviate = 10;
 
-move_towards_point(mouse_x+random_range(-bulletDeviate,bulletDeviate), mouse_y+random_range(-bulletDeviate,bulletDeviate), bulletSpeed);
+move_towards_point(global.cursor2X+random_range(-bulletDeviate,bulletDeviate), global.cursor2Y+random_range(-bulletDeviate,bulletDeviate), bulletSpeed);
 
-dir = point_direction(x,y,mouse_x,mouse_y);
+dir = point_direction(x,y,global.cursor2X,global.cursor2Y);
 
 image_angle = dir;

@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1f4c2987-6164-4c49-85ed-edaf12158f13",
+            "Value": {
+                "id": "46c2c58a-eb26-4bd4-bdc7-7cf0142a05e7",
+                "resourcePath": "objects\\objCursor\\objCursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f6f01fc-c8da-4e6e-9af1-b4cb029e0c66",
             "Value": {
                 "id": "bd765387-cd06-4122-a45c-64605f16e58f",
@@ -636,6 +644,14 @@
                 "id": "d357858e-aa17-43b9-8d94-88cbc00f8ebc",
                 "resourcePath": "views\\7b7888b9-8820-4686-af44-61282f10f6b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7bc8ac8f-fab6-4998-a4dc-7e82ae217425",
+            "Value": {
+                "id": "a141e3aa-83e2-4444-b44b-ffe4a4a69162",
+                "resourcePath": "scripts\\scr_move_gamepad\\scr_move_gamepad.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1159,6 +1175,14 @@
             }
         },
         {
+            "Key": "f2f739ee-8b26-419c-a8e8-244f193a6770",
+            "Value": {
+                "id": "12877520-b5cf-4e7f-aa15-0bd303400a47",
+                "resourcePath": "sprites\\sprCursor\\sprCursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "a87118db-0b00-43e9-a6aa-0371d707b156",
@@ -1206,7 +1230,9 @@
         "2115784e-22e8-4b48-ba72-d513948f9988",
         "acc2bd9d-7152-4470-a495-8a8ad8cb419d",
         "a5c557f9-afaa-4c6e-9021-da15d7d0d7b1",
+
         "61e1b740-d58a-4f9f-8d31-ab5be06be596"
+
     ],
     "tutorial": ""
 }
