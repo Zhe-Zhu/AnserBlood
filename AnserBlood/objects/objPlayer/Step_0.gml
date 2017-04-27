@@ -1,15 +1,9 @@
-	// check if the game is paused
-if global.gameSpeed <1
-{
-	exit;
-}
-
 //状态机
 switch(state)
 {
 	case st.normal:
 	{
-		sprite_index = sprPlayerWalk;
+		sprite_index = sprPlayerUnarmedWalk;
 		script_execute(scr_animate);//当角色不移动的时候，不播放动画
 		break;
 	}
@@ -32,17 +26,14 @@ switch(state)
 	}
 }
 
-hspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("D")) - keyboard_check(ord("A")));
-vspeed = global.timeMul * walkingSpeed * (keyboard_check(ord("S")) - keyboard_check(ord("W")));
 
-// gamepad move
-
+//gamepad move
 if (gamepad_is_connected(0))
 {
 	scr_move_gamepad(0);
 }
 
-// update cursor position
+//update cursor position
 rxaxis = gamepad_axis_value(0, gp_axisrh);
 ryaxis = gamepad_axis_value(0, gp_axisrv);
 rdirection = point_direction(0, 0, rxaxis, ryaxis);
@@ -60,16 +51,13 @@ cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 global.cursor1X = cursor.x;
 global.cursor1Y = cursor.y;
 
-// range attack
+//SHOOT
 if (gamepad_button_check(0, gp_shoulderr))
 {
 	//屏幕抖动
-	objGame.shaking =1;
-	objGame.shake += random_range(0.25,0.4);
-	objGame.zoom_level = 0.9;
+	objCamera.shake1 += random_range(0.5,1);
 
 	//射击
-
 	if firing = false
 		{
 		firing = true;
@@ -82,29 +70,31 @@ if (gamepad_button_check(0, gp_shoulderr))
 		}
 }
 
+//PICKING UP STUFF
 
+if (gamepad_button_check_pressed(0, gp_face2))
+{
+	if arm = 0
+	{
+			with instance_place(x, y, objLootWeaponPar)
+			{
+			objPlayer.arm = weaponIndex;
+			instance_destroy();
+			}
+	}	
+	else if arm = 1
+	{
+		with instance_create_depth(x,y,-1,objWeaponRifle)
+		{
+		speed = 12;
+		direction = point_direction(x,y,global.cursor1X  ,global.cursor1Y  )
+		}
+		arm = 0;
+	}
 
-
-
-//collisions
-if hspeed!= 0
-{if!place_free(x+hspeed,y)
-    {
-    if hspeed > 0 {move_contact_solid(0,hspeed)}; //向右
-    if hspeed < 0 {move_contact_solid(180,-hspeed)}; //向左
-    hspeed = 0;
-    }
 }
-if vspeed!= 0
-{if!place_free(x,y+vspeed)
-    {
-    if vspeed > 0 {move_contact_solid(270,vspeed)}; //向右
-    if vspeed < 0 {move_contact_solid(90,-vspeed)}; //向左
-    vspeed = 0;
-    }
-}
-dir = point_direction(x,y,mouse_x,mouse_y);
-image_angle = dir;
+
+
 
 
 

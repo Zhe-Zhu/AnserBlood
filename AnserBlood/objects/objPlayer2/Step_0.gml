@@ -37,12 +37,9 @@ global.cursor2Y = cursor.y;
 if (gamepad_button_check(device, gp_shoulderr))
 {
 	//屏幕抖动
-	objGame.shaking =1;
-	objGame.shake += random_range(0.25,0.4);
-	objGame.zoom_level = 0.9;
+	objCamera.shake2 += random_range(0.25,0.4);
 
 	//射击
-
 	if firing = false
 		{
 		firing = true;
@@ -53,3 +50,7 @@ if (gamepad_button_check(device, gp_shoulderr))
 		alarm[0] = 3;
 		}
 }
+
+//角色朝向
+image_angle = rdirection;
+script_execute(scr_animate);

@@ -1,5 +1,4 @@
 /// scr_move(device)
-
 var device = argument0;
 
 // get_gamepad_input
@@ -9,10 +8,16 @@ magnitude = point_distance(0, 0, xaxis, yaxis);
 if (magnitude > 1) magnitude = 1;
 
 threshold = .2;
-spd = 4;
+
 
 // move player only if you can
 if (magnitude >= threshold) {
-	x += xaxis*spd;
-	y += yaxis*spd;
-}
+	hspd = xaxis * walkingSpeed;
+	vspd = yaxis * walkingSpeed;
+	//x += hspd;
+	//y += vspd;
+}	else
+	{
+		hspd = Approach(hspd, 0, fric);
+		vspd = Approach(vspd, 0, fric);
+	}

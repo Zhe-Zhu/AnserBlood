@@ -10,8 +10,6 @@
 [i,8] = Player Sprite Index
 [i,9] = Gun Name
 [i,10] = ???
-
-
 */
 
 //set up empty array
@@ -24,15 +22,15 @@ for (i =0; i < global.weapons; i ++)
 }
 
 //[0] Knife
-global.weaponArray[0,0] = "Knife" // Name
-global.weaponArray[0,1] = spr_knife; //Sprite Index
-global.weaponArray[0,2] = noone; //Rate of Fire
-global.weaponArray[0,3] = noone; //Ammo Index
+global.weaponArray[0,0] = "Rifle" // Name
+global.weaponArray[0,1] = sprRifle; //Sprite Index
+global.weaponArray[0,2] = 30; //Rate of Fire
+global.weaponArray[0,3] = objBullet; //Ammo Index
 global.weaponArray[0,4] = noone //Muzzle Offset x
 global.weaponArray[0,5] = 0 //Muzzle Offset y
-global.weaponArray[0,6] = -15 //BulletDeviation
-global.weaponArray[0,7] = noone //Ammo Amount per clip
-global.weaponArray[0,8] = noone //Player Sprite Index
+global.weaponArray[0,6] = 4 //BulletDeviation
+global.weaponArray[0,7] = 4 //Ammo Amount per clip
+global.weaponArray[0,8] = spr //Player Sprite Index
 global.weaponArray[0,9] = noone //Gun Name
 global.weaponArray[0,10] = noone //???
 
