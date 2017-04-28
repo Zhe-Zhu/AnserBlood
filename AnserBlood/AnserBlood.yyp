@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "016449cb-6036-4616-bdaa-b4a0cfaa71de",
+            "Value": {
+                "id": "7e37ed0f-680a-4b5a-8f32-f2afe530f6ff",
+                "resourcePath": "objects\\objRoomCollision\\objRoomCollision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "034d4302-995b-4149-ac48-d40ef3b88671",
             "Value": {
                 "id": "0eaa073c-3a17-4be8-a4e6-5b0f793658c5",
@@ -404,6 +412,14 @@
                 "id": "48e561fe-3104-4c2d-ba35-4e07914e513e",
                 "resourcePath": "rooms\\room_melee_attack\\room_melee_attack.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "42216e17-5d34-4284-bc7f-b71f475cea6a",
+            "Value": {
+                "id": "d24f1e7c-be81-4e87-8e27-1bfd8fba07ac",
+                "resourcePath": "sprites\\sprite_63\\sprite_63.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

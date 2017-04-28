@@ -22,21 +22,10 @@ cursor.x = x + lengthdir_x(curDistance, curPreDirection);
 cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
 
-
-
 //PICKING UP STUFF AND THROWING STUFF
 if (gamepad_button_check_pressed(playerNumber, gp_face2))
 {
-	if instance_place(x, y, objLootWeaponPar)
-		if arm = 0
-		{
-			with instance_place(x, y, objLootWeaponPar)
-			{
-			other.arm = weaponIndex;
-			instance_destroy();
-			}
-		}	
-		else if arm = 1
+	if arm != 0
 		{
 			with instance_create_depth(x,y,-1,objWeaponRifle)
 			{
@@ -45,6 +34,16 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 			}
 			arm = 0;
 		}
+	
+		with instance_place(x, y, objLootWeaponPar)
+			{
+			if other.arm = 0
+				{
+				other.arm = weaponIndex;
+				instance_destroy();
+				}
+			}
+	
 	if ammo < 90
 	{
 		with instance_place(x, y, objAmmo)
@@ -52,8 +51,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		other.ammo += 30;
 		instance_destroy();
 		}
-	}
-		
+	}		
 }
 
 //SHOOT

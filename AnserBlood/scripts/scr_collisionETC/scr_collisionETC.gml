@@ -9,10 +9,12 @@ for (i = 0; i < abs(vspd); ++i) {
     
     if (place_meeting(x, y + sign(vspd), objBarrierPar) && !place_meeting(x + 1, y + sign(vspd), objBarrierPar))
         ++x;
+		
 
     if (!place_meeting(x, y + sign(vspd), objBarrierPar))
         y += sign(vspd);
-    else {
+    else 
+	{
         vspd = 0;
         break;
     }
