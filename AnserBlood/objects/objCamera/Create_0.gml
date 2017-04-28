@@ -1,5 +1,6 @@
-//camera_create_view(0,0,480,320,0,objCamera,10,10,50,50);
+camH = camera_get_view_width(view_camera[0]);
+camV = camera_get_view_height(view_camera[0]);
 
-//抖动会以decay的参数衰减
-shake = 0;
-decay = 0.7;
+shake1 = 0;
+shake2 = 0;
+decay = 0.8;

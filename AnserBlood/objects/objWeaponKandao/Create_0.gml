@@ -1,1 +1,3 @@
-throwing = 0;
+
+
+throwMul = 4;

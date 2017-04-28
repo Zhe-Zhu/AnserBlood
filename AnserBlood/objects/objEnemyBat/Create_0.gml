@@ -1,3 +1,17 @@
-PatrolSpeed = 5;
+event_inherited();
+state = scr_enemyStatic;
+//variables
 
-state = st.normal;
+enemySpeed = 1.2;
+alerted = false;
+attackRange= 30;
+
+alive = 5;
+
+
+attackSprite = sprEnemyAttackBat;
+normalSprite = sprEnemyWalkBat;
+corpse = objEnemyCorpseBat;
+pulled = sprEnemyPulledBat;
+
+mass = 20;

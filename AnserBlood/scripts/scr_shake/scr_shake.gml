@@ -1,8 +1,8 @@
-///Screen shake(shakeMin,shakeMax)
-//调用这个脚本之后，屏幕就会抖动
+shake *= decay;
 
-camera_set_view_pos(view_camera[0], 5,20);
-
-
+camera_set_view_pos
+(view_camera[target_view], 
+camera_get_view_x(view_camera[target_view]) + random_range(-shake, shake),
+camera_get_view_y(view_camera[target_view]) + random_range(-shake, shake));
 
 
