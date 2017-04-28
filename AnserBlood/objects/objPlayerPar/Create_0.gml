@@ -5,6 +5,7 @@ fric = 2;
 hp = 20;
 hpMax = 20;
 ammo = 10;
+inRoom = 0;
 
 depth = - 99;
 //携带武器 0为初始空武器

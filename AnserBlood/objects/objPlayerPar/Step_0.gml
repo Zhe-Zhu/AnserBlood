@@ -6,6 +6,10 @@ if (gamepad_is_connected(playerNumber))
 
 sprite_index = global.weaponArray[arm,8]
 
+//重置inroom
+if !place_meeting(x,y,objRoomCollision) {inRoom = 0;}
+
+
 //update cursor position
 rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
 ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
