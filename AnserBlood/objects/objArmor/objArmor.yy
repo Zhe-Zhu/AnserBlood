@@ -1,8 +1,8 @@
 {
-    "id": "e019bbb3-e48e-49bf-a65d-f6a5c2380641",
+    "id": "0fc651af-7be5-4c85-ae04-94098e1d56c2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objAmmo",
+    "name": "objArmor",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "3e336f12-6de7-4839-8fe3-b747bb1741c0",
+    "spriteId": "fd75139d-c2ee-462f-b87a-6f0390bcadf2",
     "visible": true
 }

@@ -25,6 +25,22 @@ if (rmagnitude >= threshold) {
 cursor.x = x + lengthdir_x(curDistance, curPreDirection);
 cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
+//丢手雷
+if (gamepad_button_check_pressed(playerNumber, gp_face3))
+	{	
+		if isThrowing = 0
+		{
+		with instance_create_depth(x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),-1,objWeaponGrenade)
+		{
+		speed = 13;
+		direction = point_direction(x,y,other.cursor.x,other.cursor.y  )
+		}	
+		isThrowing = 20;
+		}	
+	}
+isThrowing --;
+if isThrowing <0 {isThrowing = 0;}
+
 
 //PICKING UP STUFF AND THROWING STUFF
 if (gamepad_button_check_pressed(playerNumber, gp_face2))
@@ -53,6 +69,15 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		with instance_place(x, y, objAmmo)
 		{
 		other.ammo += 30;
+		instance_destroy();
+		}
+	}		
+	
+	if armor < 100
+	{
+		with instance_place(x, y, objArmor)
+		{
+		other.armor += 20;
 		instance_destroy();
 		}
 	}		
@@ -128,3 +153,5 @@ if ammo > 90
 	{
 	ammo = 90;
 	}	
+	
+if armor <0 {armor = 0;}

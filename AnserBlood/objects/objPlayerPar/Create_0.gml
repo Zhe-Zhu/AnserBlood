@@ -6,10 +6,12 @@ hp = 20;
 hpMax = 20;
 ammo = 10;
 inRoom = 0;
+isThrowing = 0;
 
 depth = - 99;
 //携带武器 0为初始空武器
 arm = 0;
+armor = 0;
 
 firing = false;
 
