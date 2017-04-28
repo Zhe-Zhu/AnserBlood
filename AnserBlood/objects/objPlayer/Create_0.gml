@@ -15,3 +15,5 @@ curDistance = 50;
 
 global.cursor1X = 0;
 global.cursor1Y = 0;
+
+shakeCamera = 1;

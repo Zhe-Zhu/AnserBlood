@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "034f4504-e652-4dc0-823a-99a48cab4a32",
+            "Value": {
+                "id": "ee240432-93a7-40bf-8c7b-54b60121beff",
+                "resourcePath": "fonts\\font_stat\\font_stat.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "05886886-1795-415d-970e-465077fdac78",
             "Value": {
                 "id": "a55ccf1e-0a31-42d8-b946-5261d00d8f8c",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "91122b4e-71d1-45d0-af6b-42f4c9df6988",
+            "Value": {
+                "id": "b3ee2164-c583-46a7-800e-80006b05cb47",
+                "resourcePath": "sprites\\sprAmmoAmount\\sprAmmoAmount.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92680015-c918-4276-b53f-5d9dff3b4716",
             "Value": {
                 "id": "3a0f15bc-539e-4b24-be46-d57eaad2eba0",
@@ -1004,14 +1020,6 @@
                 "id": "aa6dc6de-1ae9-41f3-807c-71557357033a",
                 "resourcePath": "sprites\\sprEnemyDeadBlunt5\\sprEnemyDeadBlunt5.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c2467206-16d2-4817-9468-8bc2fef6e983",
-            "Value": {
-                "id": "a56501b4-9074-440b-9dca-e46e94473538",
-                "resourcePath": "objects\\objEnemyHitbox\\objEnemyHitbox.yy",
-                "resourceType": "GMObject"
             }
         },
         {

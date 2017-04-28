@@ -12,7 +12,7 @@
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 0,
-    "coltolerance": 148,
+    "coltolerance": 153,
     "frames": [
         {
             "id": "d0dcc8c8-f4d7-4d39-9dd4-71b4f519b653",
