@@ -1,1 +1,0 @@
-script_execute(scr_collisionETC);

@@ -10,8 +10,7 @@
         "83453087-6110-4359-8e21-b12a5b08b209",
         "9f109b5d-13db-4212-97ab-66dffeff2011",
         "836b7089-d629-459d-98d8-bc15876ebd8b",
-        "896de84f-9d3d-4d68-8b8c-f3a9b3d969cd",
-        "8c58642d-fef1-413c-9642-62b88809be57"
+        "896de84f-9d3d-4d68-8b8c-f3a9b3d969cd"
     ],
     "filterType": "GMObject",
     "folderName": "weapon",

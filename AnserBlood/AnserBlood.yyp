@@ -111,11 +111,27 @@
             }
         },
         {
+            "Key": "19e6cea0-d73f-463b-892e-f86ee9790f2b",
+            "Value": {
+                "id": "70db96b9-c7f7-4158-8fa6-bad85126834a",
+                "resourcePath": "objects\\objCursor2\\objCursor2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c2e024c-779d-484b-b650-32b6fe2b10fb",
             "Value": {
                 "id": "db5a53ff-c7d7-4c5f-8c8a-b38720619b05",
                 "resourcePath": "views\\1c2e024c-779d-484b-b650-32b6fe2b10fb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1cc40e62-10d6-45d7-bcc3-6bce955784e4",
+            "Value": {
+                "id": "7271bdcf-85b9-46dd-9559-991cca20bff3",
+                "resourcePath": "objects\\objPlayerPar\\objPlayerPar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -138,7 +154,7 @@
             "Key": "1f4c2987-6164-4c49-85ed-edaf12158f13",
             "Value": {
                 "id": "46c2c58a-eb26-4bd4-bdc7-7cf0142a05e7",
-                "resourcePath": "objects\\objCursor\\objCursor.yy",
+                "resourcePath": "objects\\objCursor1\\objCursor1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -471,14 +487,6 @@
             }
         },
         {
-            "Key": "5699ea4f-b02d-49d8-937e-276034df2d23",
-            "Value": {
-                "id": "a1faa396-e5a1-471a-b95e-1d5a24458708",
-                "resourcePath": "sprites\\sprEnemyPulledBat\\sprEnemyPulledBat.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "576c35b5-4711-46e4-877b-5598d9a045ed",
             "Value": {
                 "id": "bc7a402b-00e0-4f45-a559-a01cc9af1fd3",
@@ -516,14 +524,6 @@
                 "id": "ea356a26-093b-4c13-bea9-12dec07748ad",
                 "resourcePath": "sprites\\sprPlayerUnarmedWalk\\sprPlayerUnarmedWalk.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5e23d8e5-b158-4e67-a8d9-42bcfa7a1426",
-            "Value": {
-                "id": "7ff5c796-d52e-43a5-8b79-4030c2fa43cb",
-                "resourcePath": "objects\\objPlayerDead\\objPlayerDead.yy",
-                "resourceType": "GMObject"
             }
         },
         {

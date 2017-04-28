@@ -2,16 +2,7 @@ sprite_index = choose
 (sprEnemyDeadChop,sprEnemyDead,sprEnemyDeadCutThroat,
 sprEnemyDeadBlunt1,sprEnemyDeadBlunt2,sprEnemyDeadBlunt3,sprEnemyDeadBlunt4,sprEnemyDeadBlunt5,sprEnemyDeadBlunt6);
 
-isFalling = 0;
-
-image_xscale = -1;
-fallDir = point_direction(x,y,objPlayer.x,objPlayer.y);
-image_angle = fallDir;
-speed = 8;
-direction = point_direction(objPlayer.x,objPlayer.y,x,y);
-
-global.killCount ++;
-
+//image_xscale = -1;
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately

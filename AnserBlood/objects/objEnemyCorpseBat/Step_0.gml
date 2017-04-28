@@ -1,5 +1,4 @@
 speed *=0.90;
-
 depth = -10;
 
 move_bounce_solid(true);

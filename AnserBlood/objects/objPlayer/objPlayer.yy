@@ -25,16 +25,6 @@
             "m_owner": "16544049-f206-497e-88f9-442abc979fce"
         },
         {
-            "id": "0f872ca6-09e1-488d-ba5e-a249b1253e5f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "16544049-f206-497e-88f9-442abc979fce"
-        },
-        {
             "id": "394e8785-7629-4edb-9456-14fe1032d4fb",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -53,40 +43,10 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "16544049-f206-497e-88f9-442abc979fce"
-        },
-        {
-            "id": "13050b8b-f5db-44fe-8e6c-8f26492e7d7f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "16544049-f206-497e-88f9-442abc979fce"
-        },
-        {
-            "id": "6d8c6f7a-3107-419b-ba9a-a00810072f04",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "16544049-f206-497e-88f9-442abc979fce"
-        },
-        {
-            "id": "19f76d04-b6bf-471f-9af6-e4f2deaff14c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "4cbe97cd-ce15-45c4-a810-1c360c958e26",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "16544049-f206-497e-88f9-442abc979fce"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "1cc40e62-10d6-45d7-bcc3-6bce955784e4",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
