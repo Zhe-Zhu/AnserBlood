@@ -27,23 +27,33 @@ cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 //PICKING UP STUFF AND THROWING STUFF
 if (gamepad_button_check_pressed(playerNumber, gp_face2))
 {
-	if arm = 0
-	{
+	if instance_place(x, y, objLootWeaponPar)
+		if arm = 0
+		{
 			with instance_place(x, y, objLootWeaponPar)
 			{
 			other.arm = weaponIndex;
 			instance_destroy();
 			}
-	}	
-	else if arm = 1
-	{
-		with instance_create_depth(x,y,-1,objWeaponRifle)
+		}	
+		else if arm = 1
 		{
-		speed = 12;
-		direction = point_direction(x,y,other.cursor.x,other.cursor.y  )
+			with instance_create_depth(x,y,-1,objWeaponRifle)
+			{
+			speed = 12;
+			direction = point_direction(x,y,other.cursor.x,other.cursor.y  )
+			}
+			arm = 0;
 		}
-		arm = 0;
+	if ammo < 90
+	{
+		with instance_place(x, y, objAmmo)
+		{
+		other.ammo += 30;
+		instance_destroy();
+		}
 	}
+		
 }
 
 //SHOOT
@@ -111,3 +121,8 @@ if hp <= 0
 	}
 }
 
+//子弹数量限制
+if ammo > 90
+	{
+	ammo = 90;
+	}	

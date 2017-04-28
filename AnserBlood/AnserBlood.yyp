@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "3e336f12-6de7-4839-8fe3-b747bb1741c0",
+            "Value": {
+                "id": "5df8268e-10ce-4d89-bc33-2d2cbc2fd08a",
+                "resourcePath": "sprites\\sprAmmo\\sprAmmo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f28c068-8799-4dd8-a10f-e211396c9fcb",
             "Value": {
                 "id": "e29e55eb-9857-4d6b-b3a5-e415e4a6126b",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "7204c540-f528-495c-a92d-3645b28136e7",
+            "Value": {
+                "id": "b433df6f-8034-4688-9fb6-80874b8a2ea8",
+                "resourcePath": "views\\7204c540-f528-495c-a92d-3645b28136e7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "721baeff-397c-42a3-9066-be5dce35ed5a",
             "Value": {
                 "id": "3cd8ec8a-c770-4187-a35f-ee1de9008119",
@@ -636,6 +652,14 @@
                 "id": "a141e3aa-83e2-4444-b44b-ffe4a4a69162",
                 "resourcePath": "scripts\\scr_move_gamepad\\scr_move_gamepad.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7d0e9252-60c0-4e53-85d8-6748d3daced6",
+            "Value": {
+                "id": "a3e09d73-f187-4054-b288-dcfdce947572",
+                "resourcePath": "views\\7d0e9252-60c0-4e53-85d8-6748d3daced6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1127,6 +1151,14 @@
             }
         },
         {
+            "Key": "e019bbb3-e48e-49bf-a65d-f6a5c2380641",
+            "Value": {
+                "id": "c3ec3a14-0fee-425a-b168-c53e580d6d2d",
+                "resourcePath": "objects\\objAmmo\\objAmmo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e05ef280-4a36-4f52-b122-94b27ba82bfc",
             "Value": {
                 "id": "18dd1b99-090a-4d88-8cb2-1ab2cfaa204e",
@@ -1228,6 +1260,14 @@
                 "id": "d5d62f13-2b51-4352-a650-42e54ca6fc55",
                 "resourcePath": "objects\\objPlayer1Cam\\objPlayer1Cam.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd75139d-c2ee-462f-b87a-6f0390bcadf2",
+            "Value": {
+                "id": "38e38446-7136-4726-95fa-b98ede06448a",
+                "resourcePath": "sprites\\sprArmor\\sprArmor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
