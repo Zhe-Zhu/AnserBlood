@@ -1,3 +1,5 @@
+
+/*
 secondCorner_x = x + lengthdir_x(aggroRange, image_angle - viewAngle);
 secondCorner_y = y + lengthdir_y(aggroRange, image_angle - viewAngle);
 
