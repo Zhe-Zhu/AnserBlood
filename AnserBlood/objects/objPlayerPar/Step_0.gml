@@ -30,7 +30,8 @@ ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
 rdirection = point_direction(0, 0, rxaxis, ryaxis);
 rmagnitude = point_distance(0, 0, rxaxis, ryaxis);
 
-if (rmagnitude >= threshold) {
+if (rmagnitude >= threshold) 
+{
 	cursor.image_angle = rdirection;
 	curPreDirection = rdirection;
 	image_angle = rdirection;
@@ -39,6 +40,26 @@ if (rmagnitude >= threshold) {
 cursor.x = x + lengthdir_x(curDistance, curPreDirection);
 cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
+//装弹
+if clipAmmo <= 0 and ammo >0	{doing = 1;}
+if doing = 1					{progress += 1;	}
+
+if progress >= global.weaponArray[arm,13]
+	{
+	doing = 0;
+	progress = 0;
+	
+	if ammo >= global.weaponArray[arm,7] 
+		{
+		ammo -= global.weaponArray[arm,7]; 
+		clipAmmo = global.weaponArray[arm,7] 
+		}
+		else
+		{
+		clipAmmo = ammo;
+		ammo = 0;
+		}
+	}
 
 //丢手雷
 if (gamepad_button_check_pressed(playerNumber, gp_face3))

@@ -1,7 +1,7 @@
-fric = 2;
+
 hp = 20;
 hpMax = 20;
-ammo = 10;
+
 inRoom = 0;
 inBush = 0;
 isThrowing = 0;
@@ -13,12 +13,20 @@ armor = 0;
 
 firing = false;
 
+//指针
 threshold =.2;
 curPreDirection = 0;
 curDistance = 50;
 
 viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
+
+//装弹
+clipAmmo = 0;
+ammo = 15;
+progress = 0;
+doing = 0;
+finish = 100;
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately
@@ -35,7 +43,6 @@ walkAcceleration = walkSpeed*.1;
 againstWall=0;
 
 timer=0;
-
 moveDirection=-1;
 moveSpeed=0;
 frictionEnabled=true;

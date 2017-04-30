@@ -9,12 +9,12 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 	//射击
 	if firing = false 
 	{
-		if arm != 0 and ammo >0	//如果是枪
+		if arm != 0 and clipAmmo >0	//如果是枪
 		{
 			{
 			firing = true;
 			
-			ammo -= 1;	
+			clipAmmo -= 1;	
 			sprite_index = global.weaponArray[arm,10];
 			alarm[0] = global.weaponArray[arm,2];
 			
