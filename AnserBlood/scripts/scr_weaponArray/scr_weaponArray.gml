@@ -24,7 +24,7 @@ for (i =0; i < 3; i ++)
 //[0] Knife
 global.weaponArray[0,0] = 0
 global.weaponArray[0,1] = sprWeaponKandao; //Sprite Index
-global.weaponArray[0,2] = 10; //Rate of Fire
+global.weaponArray[0,2] = 20; //Rate of Fire
 global.weaponArray[0,3] = objHitbox; //Ammo Index
 global.weaponArray[0,4] = 10 //Muzzle Offset x
 global.weaponArray[0,5] = 0 //Bullet Speed
@@ -33,16 +33,35 @@ global.weaponArray[0,7] = 0 //Ammo Amount per clip
 global.weaponArray[0,8] = sprPlayerUnarmedWalk //Player Sprite Index
 global.weaponArray[0,9] = "Knife" // Name
 global.weaponArray[0,10] = sprPlayerUnarmedWalk //Player Sprite Attack Index
+global.weaponArray[0,11] = 1 //Bullets per shot
+global.weaponArray[0,12] = objWeaponRifle //Weapon Object
 
 //[1] Rifle
 global.weaponArray[1,0] = 1
 global.weaponArray[1,1] = sprRifle; //Sprite Index
-global.weaponArray[1,2] = 3; //Rate of Fire
+global.weaponArray[1,2] = 6; //Rate of Fire
 global.weaponArray[1,3] = objBullet; //Ammo Index
 global.weaponArray[1,4] = 10 //Muzzle Offset x
-global.weaponArray[1,5] = 16 //Bullet Speed
+global.weaponArray[1,5] = 9 //Bullet Speed
 global.weaponArray[1,6] = 10 //BulletDeviation
 global.weaponArray[1,7] = 30 //Ammo Amount per clip
 global.weaponArray[1,8] = sprPlayerRifleWalk //Player Sprite Index
 global.weaponArray[1,9] = "Rifle" // Name
 global.weaponArray[1,10] = sprPlayerRifleFire //Player Sprite Attack Index
+global.weaponArray[1,11] = 1 //Bullets per shot
+global.weaponArray[1,12] = objWeaponRifle //Weapon Object
+
+//[2] Shotgun
+global.weaponArray[2,0] = 1
+global.weaponArray[2,1] = sprShotgun; //Sprite Index
+global.weaponArray[2,2] = 45; //Rate of Fire
+global.weaponArray[2,3] = objBullet; //Ammo Index
+global.weaponArray[2,4] = 10 //Muzzle Offset x
+global.weaponArray[2,5] = random_range(12,15) //Bullet Speed
+global.weaponArray[2,6] = 4 //BulletDeviation
+global.weaponArray[2,7] = 30 //Ammo Amount per clip
+global.weaponArray[2,8] = sprPlayerShotgunWalk //Player Sprite Index
+global.weaponArray[2,9] = "Shotgun" // Name
+global.weaponArray[2,10] = sprPlayerShotgunFire //Player Sprite Attack Index
+global.weaponArray[2,11] = 8 //Bullets per shot
+global.weaponArray[2,12] = objWeaponShotgun //Weapon Object

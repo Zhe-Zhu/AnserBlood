@@ -1,5 +1,4 @@
 //子弹时间系统
-global.gameSpeed = 30;
 global.pausing = 0;
 global.killCount = 0;
 

@@ -2,4 +2,7 @@
 image_angle += (3 * speed) * dir;
 
 // Friction
-speed = Approach(speed, 0, 0.25);
+speed = Approach(speed, 0, 0.15);
+
+//可以拾取的cd
+if speed = 0 {cantPick = 0;}
