@@ -4,9 +4,11 @@
     "mvc": "1.1",
     "name": "7204c540-f528-495c-a92d-3645b28136e7",
     "children": [
-        "656d6ace-ddae-421c-b608-2e38843431db",
-        "e019bbb3-e48e-49bf-a65d-f6a5c2380641",
-        "0fc651af-7be5-4c85-ae04-94098e1d56c2"
+        "e312e159-e6f8-4b8e-b6a2-6314e5b714e0",
+        "83453087-6110-4359-8e21-b12a5b08b209",
+        "9dfa3fb0-db47-4c0b-a81b-84215e3dc131",
+        "144b16b7-f097-4c27-a9b0-7845f1071633",
+        "e14d350c-ef84-43ff-a041-2a17a009e0ff"
     ],
     "filterType": "GMObject",
     "folderName": "loot",

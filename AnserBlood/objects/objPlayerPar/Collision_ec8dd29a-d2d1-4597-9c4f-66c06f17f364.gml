@@ -12,8 +12,7 @@ toBullet = point_direction(x,y,xx,yy)
 	{
 	hp -= 3;
 	script_execute(scr_bloodSplat);
-	//销毁子弹
-	with other{instance_destroy()}
+
 	}
 
 

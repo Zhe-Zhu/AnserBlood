@@ -11,7 +11,9 @@
         "d82bbf7a-05c9-4d99-9346-46e437414c03",
         "450c9763-7f08-4176-8835-2ad078f2cefa",
         "016449cb-6036-4616-bdaa-b4a0cfaa71de",
-        "01c938eb-60fa-4311-96ab-b4ff288f0153"
+        "01c938eb-60fa-4311-96ab-b4ff288f0153",
+        "7c7c396d-c34f-4d51-94a5-c6e1e4f6a332",
+        "51439ece-4308-42c4-b655-cedd451c627c"
     ],
     "filterType": "GMObject",
     "folderName": "wall",

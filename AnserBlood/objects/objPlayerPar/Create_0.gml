@@ -10,6 +10,7 @@ depth = - 99;
 //携带武器 0为初始空武器
 arm = 0;
 armor = 0;
+grenadeAmount = 2;
 
 firing = false;
 
@@ -22,8 +23,8 @@ viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
 
 //装弹
-clipAmmo = 0;
-ammo = 15;
+clipAmmo = 10;
+ammo = 150;
 progress = 0;
 doing = 0;
 finish = 100;

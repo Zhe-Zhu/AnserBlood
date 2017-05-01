@@ -16,9 +16,11 @@ if other.selfBullet != id
 	//销毁子弹
 	with other{instance_destroy()}
 	}
+	
+	//击退
+	x += lengthdir_x(1,fallDir);
+	y += lengthdir_y(1,fallDir);
 }
 
-//击退
-x += lengthdir_x(1,fallDir);
-y += lengthdir_y(1,fallDir);
+
 

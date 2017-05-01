@@ -9,7 +9,7 @@ fuze --;
 if fuze <= 0
 {
 	var i;
-	for (i =0; i< 12; i++)
+	for (i =0; i< 11; i++)
 	{
 		if random(100) < bloodParticleChance || spawnStart 
 		{ //spawn sprite animation
@@ -27,5 +27,9 @@ if fuze <= 0
 	}	
 	instance_destroy();
 	spawnStart = false;
+	
+	//屏幕抖动
+		objCamera.shake1 += random_range(-2,2);
+		objCamera.shake2 += random_range(-2,2);
 }
 

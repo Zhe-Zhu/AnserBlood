@@ -5,10 +5,12 @@ if (gamepad_is_connected(playerNumber))
 }
 
 //决定玩家sprite
-sprite_index = global.weaponArray[arm,8]
+if firing = true {sprite_index = global.weaponArray[arm,10];}
+else {sprite_index = global.weaponArray[arm,8]} 
+
 
 //播放动画的规则
-if moveSpeed != 0 
+if moveSpeed != 0 || firing = true
 {
     image_speed = 1;
 }   else    
@@ -41,6 +43,8 @@ cursor.x = x + lengthdir_x(curDistance, curPreDirection);
 cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
 //装弹
+if arm != 0 //判断是否持有武器
+{
 if clipAmmo <= 0 and ammo >0	{doing = 1;}
 if doing = 1					{progress += 1;	}
 
@@ -60,27 +64,30 @@ if progress >= global.weaponArray[arm,13]
 		ammo = 0;
 		}
 	}
+}
 
 //丢手雷
 if (gamepad_button_check_pressed(playerNumber, gp_face3))
 	{	
-		if isThrowing = 0
+		if isThrowing = 0 and grenadeAmount >0 
 		{
 		with instance_create_depth(x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),-1,objGrenadeFragmentation)
 		{
 		speed = 8;
 		direction = point_direction(x,y,other.cursor.x,other.cursor.y  )
 		}	
+		grenadeAmount --;
 		isThrowing = 20;
 		}	
 	}
+	
 isThrowing --;
 if isThrowing <0 {isThrowing = 0;}
 
 //PICKING UP STUFF AND THROWING STUFF
 if (gamepad_button_check_pressed(playerNumber, gp_face2))
 {
-	if arm != 0 and instance_place(x, y, objLootWeaponPar)
+	if arm != 0  and !place_meeting(x,y,objProps)
 		{
 			with instance_create_depth(x,y,-1,global.weaponArray[arm,12])
 			{
@@ -99,8 +106,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				instance_destroy();
 				}
 			}
-		
-	
+			
 	if ammo < 90
 	{
 		with instance_place(x, y, objAmmo)
