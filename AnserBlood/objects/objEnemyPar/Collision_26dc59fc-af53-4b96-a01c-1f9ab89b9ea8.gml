@@ -1,4 +1,3 @@
-
 xx = other.x
 yy = other.y
 

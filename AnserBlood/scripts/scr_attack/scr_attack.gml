@@ -1,7 +1,5 @@
 //====Hitbox
-image_speed = 1;
-
-if (image_index >= 4 && image_index <=5 )
+if (image_index >= 2 && image_index <=3 )
  	{
  		with(instance_create_depth(x,y,0,objHitbox))
  		{

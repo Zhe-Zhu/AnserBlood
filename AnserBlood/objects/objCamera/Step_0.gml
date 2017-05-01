@@ -1,21 +1,13 @@
 //camera_set_view_border(view_camera[0],camH/2,camV/2);
 //camera_set_view_border(view_camera[1],320,240);
 
-camera_set_view_pos(view_camera[0],objPlayer1Cam.x + shake -240,objPlayer1Cam.y + shake -180);
-camera_set_view_pos(view_camera[1],objPlayer2Cam.x-240,objPlayer2Cam.y-180);
+camera_set_view_pos(view_camera[0],objPlayer1Cam.x -300 + shake1,objPlayer1Cam.y -225 + shake1);
+camera_set_view_pos(view_camera[1],objPlayer2Cam.x -300 + shake2,objPlayer2Cam.y -225 + shake2);
 
-shake *= decay;
+shake1 *= decay;
+shake2 *= decay;
 
 //var new_h = lerp(view_h, zoom_level * default_zoom_height, rate);
-
-
-
-
-
-
-
-
-
 
 /*
 var xTo,yTo;

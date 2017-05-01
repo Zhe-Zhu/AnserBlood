@@ -1,5 +1,5 @@
 {
-    "id": "acc2bd9d-7152-4470-a495-8a8ad8cb419d",
+    "id": "9b87e30b-ce80-4531-b8da-c1a8b5bb7723",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scr_shoot",

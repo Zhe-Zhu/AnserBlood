@@ -4,6 +4,7 @@ attInterval = 12;
 cooldown = attInterval;
 
 //variables
+
 enemySpeed = 1.2;
 alerted = false;
 attackRange= 30;
