@@ -4,19 +4,10 @@
     "mvc": "1.0",
     "name": "objAmmo",
     "eventList": [
-        {
-            "id": "5f6004fe-9173-4b84-b24b-a14d838bdc49",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e019bbb3-e48e-49bf-a65d-f6a5c2380641"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "3311d136-da68-40f6-b850-d975b161998b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

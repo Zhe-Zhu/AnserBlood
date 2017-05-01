@@ -3,4 +3,4 @@ camV = camera_get_view_height(view_camera[0]);
 
 shake1 = 0;
 shake2 = 0;
-decay = 0.8;
+decay = 0.87;

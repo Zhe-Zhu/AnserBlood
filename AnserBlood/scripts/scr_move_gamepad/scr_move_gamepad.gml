@@ -9,15 +9,37 @@ if (magnitude > 1) magnitude = 1;
 
 threshold = .2;
 
-
-// move player only if you can
-if (magnitude >= threshold) {
-	hspd = xaxis * walkingSpeed;
-	vspd = yaxis * walkingSpeed;
-	//x += hspd;
-	//y += vspd;
-}	else
+//Walkin' around.
+    if (magnitude >= threshold) 
 	{
-		hspd = Approach(hspd, 0, fric);
-		vspd = Approach(vspd, 0, fric);
+	moveDirection = point_direction(0,0,xaxis,yaxis);	
+	}	
+	else
+	{
+    moveDirection = -1;
 	}
+	
+    if(moveDirection != -1)
+    {   //We are moving, so set move_speed.
+        if(frictionEnabled)
+            moveSpeed = min(walkSpeed, moveSpeed + walkAcceleration);
+        else
+            moveSpeed = walkSpeed;
+    }
+    else
+    {   //Stop movement, round position.
+        moveSpeed=0;
+        x=round(x);
+        y=round(y);
+    }
+
+
+///Movement and Collision
+if(movement_and_collision(moveDirection,moveSpeed,objBarrierPar))
+{
+    againstWall++;
+    if(frictionEnabled)
+        moveSpeed=0;
+}
+else
+    againstWall=false;
