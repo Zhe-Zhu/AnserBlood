@@ -107,7 +107,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				}
 			}
 			
-	if ammo < 90
+	if ammo < 80
 	{
 		with instance_place(x, y, objAmmo)
 		{
@@ -116,11 +116,11 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		}
 	}		
 	
-	if armor < 100
+	if hp < 100
 	{
 		with instance_place(x, y, objArmor)
 		{
-		other.armor += 20;
+		other.hp += 15;
 		instance_destroy();
 		}
 	}		
@@ -129,11 +129,40 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 //SHOOT
 script_execute(scr_shoot);
 
-//死掉
+
+//不在安全区就要掉血
+if !place_meeting(x,y,objSafezone)
+{
+	inSafeZone = false;
+	hp -= 0.05;	
+}
+else 
+{
+hp+= 0.01; //hp缓慢回复
+inSafeZone = true;
+}
+
+//流血和死掉
+if random(100) <= 3
+{
+	if hp/hpMax <= 0.5 || inSafeZone = false
+	{
+		//制造血迹
+		for (i = 0; i < random(2); i++)
+		{
+			with(instance_create_depth(x,y,-1,objBloodParticle)) 
+			{
+					speed = random_range(2,3);
+					direction = random(360);
+					image_angle = direction;
+			}
+		}
+	}
+}
+
 if hp <= 0
 {
 	instance_destroy()
-	
 	with instance_create_depth(x,y,-2,objPlayerCorpseBat)
 	{
 		fallDir = other.fallDir;
@@ -145,6 +174,5 @@ if hp <= 0
 }
 
 //子弹和护甲数量限制
-if ammo > 90	{ammo = 90;}	
-if armor <0		{armor = 0;}
+if ammo > 80	{ammo = 80;}	
 
