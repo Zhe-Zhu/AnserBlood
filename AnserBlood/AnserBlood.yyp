@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "2ecb42ef-f4df-4d30-aabc-06ac27719d58",
-            "Value": {
-                "id": "c2e288a0-c588-42cd-a7b3-8e47a909b40d",
-                "resourcePath": "objects\\objEnemyElite\\objEnemyElite.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2f5e4d73-1964-4ace-809a-ad87c55910eb",
             "Value": {
                 "id": "5eab6973-4cbe-4624-9216-b7a5e97198ca",
@@ -791,14 +783,6 @@
             }
         },
         {
-            "Key": "67c4d4d2-309b-445b-ab5c-f894ab3271d0",
-            "Value": {
-                "id": "e6ecf1e3-0af1-4d1d-a0b8-69e716b29adc",
-                "resourcePath": "objects\\objEnemyCorpseElite\\objEnemyCorpseElite.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "68eff764-98c8-40da-8b1d-8710d8cf5500",
             "Value": {
                 "id": "802884ce-29fa-4aa8-ae41-d35c73cab019",
@@ -1003,14 +987,6 @@
             "Value": {
                 "id": "4842cb0c-1a17-4d2b-8a56-d94efdf221b3",
                 "resourcePath": "objects\\objBloodSplat\\objBloodSplat.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8970fd79-e3d2-44ef-9d70-013c1b3a47f8",
-            "Value": {
-                "id": "8253a9bd-714a-4551-98ee-022896b13527",
-                "resourcePath": "objects\\objEnemyRange\\objEnemyRange.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1327,14 +1303,6 @@
             }
         },
         {
-            "Key": "b6c61f86-094f-4e57-ba7c-f9550ca1d35e",
-            "Value": {
-                "id": "2b5315a5-b0ae-49bc-b641-31115b09842b",
-                "resourcePath": "objects\\objEnemySpawner\\objEnemySpawner.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b9b98f19-678c-4c25-928b-06f261c99394",
             "Value": {
                 "id": "3f631ac6-f5d9-4b07-8f7e-e5088ca53a28",
@@ -1588,14 +1556,6 @@
                 "id": "1f77f231-8f47-43db-882f-27b4648258cf",
                 "resourcePath": "sprites\\sprBullet\\sprBullet.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e5d88bd2-ec57-4ab9-8e27-1bc8f52bde5f",
-            "Value": {
-                "id": "bcb0dd71-ab08-40bd-a4be-258aeffaf594",
-                "resourcePath": "objects\\objEnemyBat\\objEnemyBat.yy",
-                "resourceType": "GMObject"
             }
         },
         {

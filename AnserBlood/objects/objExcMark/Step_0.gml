@@ -3,7 +3,7 @@ if instance_exists(belongsTo)
 {
 //跟随玩家
 x = belongsTo.x;
-y = belongsTo.y - 50;
+y = belongsTo.y - 20;
 
 if belongsTo.inSafeZone = false 
 	{image_alpha = 1;} 

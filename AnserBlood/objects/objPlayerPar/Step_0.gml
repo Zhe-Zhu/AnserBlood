@@ -130,7 +130,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		}
 	}	
 	//捡护甲条件
-	if hp < maxHp
+	if hp < hpMax
 	{
 		with instance_place(x, y, objPropsArmor)
 		{
@@ -138,7 +138,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		instance_destroy();
 		}
 	}	
-	if hp > maxHp {hp = maxHp}	
+	if hp > hpMax {hp = hpMax}	
 }
 
 //SHOOT

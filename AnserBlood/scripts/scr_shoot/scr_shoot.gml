@@ -44,7 +44,6 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 	if arm = 0 //如果是近战
 			{
 			firing = true;
-				
 				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4],image_angle),y+lengthdir_y(global.weaponArray[arm,4],image_angle),-1,global.weaponArray[arm,3]))
 				{		
 					direction = other.curPreDirection;

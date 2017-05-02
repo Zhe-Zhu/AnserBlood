@@ -5,16 +5,6 @@
     "name": "objEnemyPar",
     "eventList": [
         {
-            "id": "0934e7a5-e1ee-40a5-bf40-09a8a71fa4ca",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f178b4ed-6431-4c39-8329-926c057a8594"
-        },
-        {
             "id": "489a3587-1194-4868-9c15-0984e30bf383",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "f178b4ed-6431-4c39-8329-926c057a8594"
-        },
-        {
-            "id": "68ffb438-68b4-49db-8265-9e89af8c064e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
             "m_owner": "f178b4ed-6431-4c39-8329-926c057a8594"
         },
         {

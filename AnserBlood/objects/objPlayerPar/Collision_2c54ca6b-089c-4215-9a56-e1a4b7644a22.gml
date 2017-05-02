@@ -14,9 +14,10 @@ if other.selfBullet != id
 	with other{instance_destroy()}
 	
 	//击退
-	x += lengthdir_x(5,fallDir);
-	y += lengthdir_y(5,fallDir);
+	x += lengthdir_x(4,fallDir);
+	y += lengthdir_y(4,fallDir);
 
+instance_destroy();
 }
 
 
