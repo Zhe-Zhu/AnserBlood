@@ -10,7 +10,7 @@ if objGame.safeZoneStatus = 0
 	}
 	else 
 	{
-	image_xscale -= 1/(15*60);
-	image_yscale -= 1/(15*60);
+	image_xscale -= 1/(12*60);
+	image_yscale -= 1/(12*60);
 	}
 }

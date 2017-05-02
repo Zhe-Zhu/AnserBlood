@@ -56,7 +56,7 @@ global.weaponArray[1,13] = 90 //Reload Time(Frames)
 //[2] Shotgun
 global.weaponArray[2,0] = 1
 global.weaponArray[2,1] = sprShotgun; //Sprite Index
-global.weaponArray[2,2] = 45; //Rate of Fire
+global.weaponArray[2,2] = 50; //Rate of Fire
 global.weaponArray[2,3] = objBullet; //Ammo Index
 global.weaponArray[2,4] = 10 //Muzzle Offset x
 global.weaponArray[2,5] = random_range(15,20) //Bullet Speed

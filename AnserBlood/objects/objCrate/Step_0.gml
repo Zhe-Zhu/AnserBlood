@@ -8,7 +8,6 @@ if hp <= 0
 	{
 		with instance_create_depth(x,y,-2,scr_crateDrop())
 		{
-			
 			image_angle = random(360);
 			speed = random_range(2,3.5);
 			direction = random(360);
