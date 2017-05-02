@@ -8,7 +8,7 @@ toBullet = point_direction(x,y,xx,yy)
 //损失生命值
 if other.selfBullet != id
 {
-	hp -= 15;
+	hp -= 12;
 	script_execute(scr_bloodSplat);
 	//销毁子弹
 	with other{instance_destroy()}
