@@ -1,5 +1,5 @@
-hp = 100;
-hpMax = 100;
+hp = 50;
+hpMax = 50;
 
 inRoom = 0;
 inBush = 0;

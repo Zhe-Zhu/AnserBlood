@@ -17,8 +17,3 @@ toBullet = point_direction(x,y,xx,yy)
 	}
 	
 
-	
-
-	//销毁子弹
-	with other{instance_destroy()}
-

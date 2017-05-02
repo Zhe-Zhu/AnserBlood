@@ -22,9 +22,14 @@ if moveSpeed != 0 || firing = true
 //重置inroom
 if !place_meeting(x,y,objRoomCollision) {inRoom = 0;}
 
-//inBush
+//进入草丛
+if position_meeting(x,y,objBush)
+{
+	inRoom = other.id;
+	inBush = 1;
+}
 if inBush =1 {image_alpha = 0.6};
-if !place_meeting(x,y,objBush) {inBush = 0; image_alpha = 1;}
+if !position_meeting(x,y,objBush) {inBush = 0; image_alpha = 1;}
 
 //更新指针位置
 rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
@@ -106,19 +111,28 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				instance_destroy();
 				}
 			}
-			
+	//捡子弹条件	
 	if ammo < 80
 	{
-		with instance_place(x, y, objAmmo)
+		with instance_place(x, y, objPropsAmmo)
 		{
 		other.ammo += 30;
 		instance_destroy();
 		}
 	}		
-	
+	//捡手雷条件
+	if grenadeAmount < 5
+	{
+		with instance_place(x, y, objPropsFragmentation)
+		{
+		other.grenadeAmount += 1;
+		instance_destroy();
+		}
+	}	
+	//捡护甲条件
 	if hp < 100
 	{
-		with instance_place(x, y, objArmor)
+		with instance_place(x, y, objPropsArmor)
 		{
 		other.hp += 15;
 		instance_destroy();
@@ -134,11 +148,10 @@ script_execute(scr_shoot);
 if !place_meeting(x,y,objSafezone)
 {
 	inSafeZone = false;
-	hp -= 0.05;	
+	hp -= 0.03;	
 }
 else 
 {
-hp+= 0.01; //hp缓慢回复
 inSafeZone = true;
 }
 
