@@ -17,7 +17,7 @@ if fuze <= 0
 		_y = y-lengthdir_y(30,image_angle)+random_range(-bloodRandPos,bloodRandPos);
 		with(instance_create_depth(_x,_y,-1,objExplosion)) 
 		{
-			speed = random_range(6,8);
+			speed = random_range(3,4);
 			direction = random(360);
 			image_angle = direction;
 			image_xscale = random_range(0.3,1);

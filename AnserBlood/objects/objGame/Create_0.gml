@@ -48,4 +48,4 @@ with instance_create_depth(x,y,4,objSaftyPoint)
 	x = random_range(room_width/5,room_width*4/5,)
 	y = random_range(room_height/5,room_height*4/5,)
 }
-alarm[0] = (55 - safeZoneLevel*5)*60
+alarm[0] = (25 - safeZoneLevel*5)*60

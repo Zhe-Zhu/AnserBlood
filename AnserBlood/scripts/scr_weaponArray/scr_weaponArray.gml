@@ -51,17 +51,17 @@ global.weaponArray[1,9] = "Rifle" // Name
 global.weaponArray[1,10] = sprPlayerRifleFire //Player Sprite Attack Index
 global.weaponArray[1,11] = 1 //Bullets per shot
 global.weaponArray[1,12] = objWeaponRifle //Weapon Object
-global.weaponArray[1,13] = 90 //Reload Time(Frames)
+global.weaponArray[1,13] = 100 //Reload Time(Frames)
 
 //[2] Shotgun
 global.weaponArray[2,0] = 1
 global.weaponArray[2,1] = sprShotgun; //Sprite Index
-global.weaponArray[2,2] = 50; //Rate of Fire
+global.weaponArray[2,2] = 60; //Rate of Fire
 global.weaponArray[2,3] = objBullet; //Ammo Index
 global.weaponArray[2,4] = 10 //Muzzle Offset x
 global.weaponArray[2,5] = random_range(15,20) //Bullet Speed
-global.weaponArray[2,6] = 4 //BulletDeviation
-global.weaponArray[2,7] = 8 //Ammo Amount per clip
+global.weaponArray[2,6] = 7 //BulletDeviation
+global.weaponArray[2,7] = 3 //Ammo Amount per clip
 global.weaponArray[2,8] = sprPlayerShotgunWalk //Player Sprite Index
 global.weaponArray[2,9] = "Shotgun" // Name
 global.weaponArray[2,10] = sprPlayerShotgunFire //Player Sprite Attack Index
@@ -83,4 +83,4 @@ global.weaponArray[3,9] = "Uzi" // Name
 global.weaponArray[3,10] = sprPlayerUziWalk  //Player Sprite Attack Index
 global.weaponArray[3,11] = 1 //Bullets per shot
 global.weaponArray[3,12] = objWeaponUzi //Weapon Object
-global.weaponArray[3,13] = 120 //Reload Time(Frames)
+global.weaponArray[3,13] = 70 //Reload Time(Frames)

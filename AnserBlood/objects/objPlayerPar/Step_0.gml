@@ -25,11 +25,19 @@ if !place_meeting(x,y,objRoomCollision) {inRoom = 0;}
 //进入草丛
 if position_meeting(x,y,objBush)
 {
-	inRoom = other.id;
-	inBush = 1;
+	with position_meeting(x,y,objBush)
+	{
+	other.inRoom = id;
+	other.inBush = 1;
+	}
+}	
+else
+{
+inBush = 0; image_alpha = 1;
 }
+
 if inBush =1 {image_alpha = 0.6};
-if !position_meeting(x,y,objBush) {inBush = 0; image_alpha = 1;}
+
 
 //更新指针位置
 rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);

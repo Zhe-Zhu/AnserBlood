@@ -2,7 +2,7 @@
 //camera_set_view_angle(view_camera[0], (mouse_x -objPlayer.x)/230);
 
 //重启游戏
-if keyboard_check(ord("R")) or gamepad_button_check_pressed(0,gp_start)
+if keyboard_check(ord("R")) or gamepad_button_check_pressed(0,gp_start) or gamepad_button_check_pressed(1,gp_start)
 {
 game_restart();
 }
