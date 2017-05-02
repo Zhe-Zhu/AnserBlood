@@ -9,7 +9,7 @@
         "9bf24c40-d293-4588-8d92-535907a5d088"
     ],
     "filterType": "GMObject",
-    "folderName": "weapon",
+    "folderName": "damage source",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

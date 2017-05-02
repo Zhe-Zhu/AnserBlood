@@ -11,7 +11,7 @@ if other.selfBullet != id
 	if armor >0 {armor -=2}
 	else
 	{
-	hp -= 2;
+	hp -= other.damage;
 	script_execute(scr_bloodSplat);
 	//销毁子弹
 	with other{instance_destroy()}

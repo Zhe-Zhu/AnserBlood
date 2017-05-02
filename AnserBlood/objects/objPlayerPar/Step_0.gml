@@ -80,6 +80,7 @@ if progress >= global.weaponArray[arm,13]
 }
 
 //丢手雷
+/*
 if (gamepad_button_check_pressed(playerNumber, gp_face3))
 	{	
 		if isThrowing = 0 and grenadeAmount >0 
@@ -93,7 +94,8 @@ if (gamepad_button_check_pressed(playerNumber, gp_face3))
 		isThrowing = 20;
 		}	
 	}
-	
+
+*/
 isThrowing --;
 if isThrowing <0 {isThrowing = 0;}
 

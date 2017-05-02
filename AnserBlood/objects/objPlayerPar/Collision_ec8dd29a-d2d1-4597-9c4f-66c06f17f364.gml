@@ -10,9 +10,8 @@ toBullet = point_direction(x,y,xx,yy)
 	if armor >0 {armor -=3}
 	else
 	{
-	hp -= 3;
+	hp -= 2;
 	script_execute(scr_bloodSplat);
-
 	}
 
 

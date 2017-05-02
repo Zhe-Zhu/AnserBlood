@@ -1,4 +1,4 @@
-var randomDrop = random(95);
+var randomDrop = random(85);
 
 if (randomDrop <= 38) 
 {return objPropsAmmo;}
