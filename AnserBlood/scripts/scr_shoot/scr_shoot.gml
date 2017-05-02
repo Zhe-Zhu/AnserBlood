@@ -1,5 +1,5 @@
 //SHOOT
-if (gamepad_button_check(playerNumber, gp_stickr))
+if (gamepad_button_check(playerNumber, gp_shoulderr))
 {
 	//屏幕抖动
 			if shakeCamera = 1	{objCamera.shake1 += random_range(-2,2);}
