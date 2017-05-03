@@ -27,7 +27,7 @@ viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
 
 //装弹
-clipAmmo = 1000;
+clipAmmo = 10;
 ammo = 20;
 progress = 0;
 doing = 0;

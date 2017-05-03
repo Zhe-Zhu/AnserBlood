@@ -14,6 +14,8 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 			{
 			firing = true;
 			alarm[0] = global.weaponArray[arm,2];
+			x += lengthdir_x(2,point_direction(cursor.x,cursor.y,x,y,))
+			y += lengthdir_y(2,point_direction(cursor.x,cursor.y,x,y,))
 			
 			var i;
 			for (i =0; i < global.weaponArray[arm,11]; i ++) 
