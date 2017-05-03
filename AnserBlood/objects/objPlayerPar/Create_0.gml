@@ -18,6 +18,8 @@ grenadeAmount = 2;
 
 firing = false;
 
+hasTarget = false;
+
 //指针
 threshold =.2;
 curPreDirection = 0;
@@ -25,6 +27,11 @@ curDistance = 100;
 
 viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
+
+//辅助瞄准相关
+targeting = 0;	
+shootTargetX = 0;
+shootTargetY = 0;
 
 //装弹
 clipAmmo = 1000;
@@ -63,6 +70,13 @@ with instance_create_depth(x,y-30,-3,objExcMark)
 
 //安全区指示标
 with instance_create_depth(x,y,-10,objSaftySign)
+{
+	belongsTo = other.id;
+}
+
+//创建视野
+
+with instance_create_depth(x,y,-5,objView)
 {
 	belongsTo = other.id;
 }

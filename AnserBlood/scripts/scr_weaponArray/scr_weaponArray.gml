@@ -73,7 +73,7 @@ global.weaponArray[2,14] = 3.5 //Bullet Damage
 //[3] Uzi
 global.weaponArray[3,0] = 3
 global.weaponArray[3,1] = sprUzi; //Sprite Index
-global.weaponArray[3,2] = 4; //Rate of Fire
+global.weaponArray[3,2] = 3; //Rate of Fire
 global.weaponArray[3,3] = objBulletPistol; //Ammo Index
 global.weaponArray[3,4] = 60 //Muzzle Offset x
 global.weaponArray[3,5] = 12 //Bullet Speed

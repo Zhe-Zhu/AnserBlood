@@ -8,6 +8,30 @@ if (gamepad_is_connected(playerNumber))
 	}	
 }
 
+//更新指针位置
+rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
+ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
+
+//指针方向
+//rdirection = point_direction(0, 0, xaxis, yaxis);	// 跟左摇杆
+//rmagnitude = point_distance(0, 0, xaxis, yaxis);
+
+rdirection = point_direction(0, 0, rxaxis, ryaxis);  // 跟右摇杆
+rmagnitude = point_distance(0, 0, rxaxis, ryaxis);
+
+if (rmagnitude >= threshold) 
+{
+	cursor.image_angle = rdirection;
+	curPreDirection = rdirection;
+	image_angle = rdirection;
+}
+
+	
+
+
+cursor.x = x + lengthdir_x(curDistance, curPreDirection);
+cursor.y = y + lengthdir_y(curDistance, curPreDirection);
+
 //决定玩家sprite
 if firing = true {sprite_index = global.weaponArray[arm,10];}
 else {sprite_index = global.weaponArray[arm,8]} 
@@ -46,21 +70,6 @@ else
 	image_alpha = 1;
 	}
 
-//更新指针位置
-rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
-ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
-rdirection = point_direction(0, 0, rxaxis, ryaxis);
-rmagnitude = point_distance(0, 0, rxaxis, ryaxis);
-
-if (rmagnitude >= threshold) 
-{
-	cursor.image_angle = rdirection;
-	curPreDirection = rdirection;
-	image_angle = rdirection;
-}
-
-cursor.x = x + lengthdir_x(curDistance, curPreDirection);
-cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
 //装弹
 if arm != 0 //判断是否持有武器
@@ -142,11 +151,11 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				}
 			}
 	//捡子弹条件	
-	if ammo < 80
+	if ammo < 120
 	{
 		with instance_place(x, y, objPropsAmmo)
 		{
-		other.ammo += 30;
+		other.ammo += 40;
 		instance_destroy();
 		}
 	}		
@@ -171,8 +180,6 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 	if hp > hpMax {hp = hpMax}	
 }
 
-//SHOOT
-script_execute(scr_shoot);
 
 
 //不在安全区就要掉血

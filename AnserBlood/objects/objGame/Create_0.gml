@@ -16,6 +16,7 @@ countDownSafeZone = alarm[0] / 60;
 
 randomize();
 //创建玩家
+
 	spawn_id = instance_create_depth(0,0,-5, objPlayer);
 	do
 	{
@@ -48,7 +49,4 @@ with instance_create_depth(x,y,4,objSaftyPoint)
 	x = random_range(room_width/5,room_width*4/5,)
 	y = random_range(room_height/5,room_height*4/5,)
 }
-alarm[0] = (25 - safeZoneLevel*5)*60
-
-//创建箱子
-alarm[2] = 1200;
+alarm[0] = (15 - safeZoneLevel*5)*60
