@@ -23,7 +23,7 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 				//创建子弹
 				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4]+muzzleOffest,image_angle),y+lengthdir_y(global.weaponArray[arm,4]+muzzleOffest,image_angle),-10,global.weaponArray[arm,3]))
 				{		
-				direction = other.image_angle;
+				direction = other.image_angle+random_range(-global.weaponArray[other.arm,6],global.weaponArray[other.arm,6]);
 				image_angle = direction;
 				speed = global.weaponArray[other.arm,5]
 				selfBullet = other.id;

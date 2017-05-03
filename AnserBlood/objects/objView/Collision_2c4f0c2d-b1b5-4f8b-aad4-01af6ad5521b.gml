@@ -10,8 +10,7 @@ if instance_exists(belongsTo)
 			belongsTo.targeting = other.id;	
 			belongsTo.shootTargetX = other.x;
 			belongsTo.shootTargetY = other.y;
-		}	
-		
+		}		
 	}
 	else 
 	{
