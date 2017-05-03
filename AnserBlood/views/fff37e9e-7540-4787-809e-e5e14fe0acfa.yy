@@ -14,7 +14,9 @@
         "47a3596c-8207-4327-8e40-48ba55c752d4",
         "42216e17-5d34-4284-bc7f-b71f475cea6a",
         "df9a6c9f-9e8d-4315-a9d8-b20e7a912f5f",
-        "a2e48751-1292-4094-8ed0-c61936f1f12b"
+        "a2e48751-1292-4094-8ed0-c61936f1f12b",
+        "72867cf2-782e-4eb1-82b6-caaebbcbd28e",
+        "e35ed268-dc2d-4864-bcd4-5def1398f5ff"
     ],
     "filterType": "GMSprite",
     "folderName": "wall",

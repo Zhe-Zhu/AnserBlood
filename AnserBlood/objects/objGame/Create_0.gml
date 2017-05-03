@@ -49,3 +49,6 @@ with instance_create_depth(x,y,4,objSaftyPoint)
 	y = random_range(room_height/5,room_height*4/5,)
 }
 alarm[0] = (25 - safeZoneLevel*5)*60
+
+//创建箱子
+alarm[2] = 1200;
