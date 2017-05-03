@@ -1,9 +1,10 @@
 if instance_exists(belongsTo)
 {
-
-	if !collision_line(x,y,objPlayerPar.x,objPlayerPar.y,objBarrierPar,true,true) 
-	and instance_place(x,y,objPlayerPar)
-	and (belongsTo.inRoom = objPlayerPar.inRoom || objPlayerPar.inRoom=0)
+	if other.id != belongsTo.id
+	{
+	if !collision_line(x,y,other.x,other.y,objBarrierPar,true,true) 
+	and instance_place(x,y,other)
+	and (belongsTo.inRoom = other.inRoom || other.inRoom=0)
 		{
 			belongsTo.hasTarget = true;
 			belongsTo.targeting = other.id;	
@@ -11,4 +12,9 @@ if instance_exists(belongsTo)
 			belongsTo.shootTargetY = other.y;
 		}	
 		
+	}
+	else 
+	{
+			belongsTo.hasTarget = false;
+	}	
 }

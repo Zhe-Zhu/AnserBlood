@@ -17,7 +17,7 @@ ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
 //rmagnitude = point_distance(0, 0, xaxis, yaxis);
 
 rdirection = point_direction(0, 0, rxaxis, ryaxis);  // 跟右摇杆
-rmagnitude = point_distance(0, 0, rxaxis, ryaxis);
+rmagnitude = point_distance( 0, 0, rxaxis, ryaxis);
 
 if (rmagnitude >= threshold) 
 {

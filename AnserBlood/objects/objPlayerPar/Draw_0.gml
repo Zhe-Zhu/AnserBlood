@@ -5,7 +5,7 @@ draw_text(x,y,string(cursor.image_angle));
 draw_text(x,y+20,string(shootTargetX));
 draw_text(x,y+40,string(shootTargetY));
 draw_text(x,y+60,string(image_angle));
-//draw_text(x,y+80,string(y));
+draw_text(x,y+80,string(hasTarget));
 
 //装子弹
 if view_current == playerNumber and doing = 1
