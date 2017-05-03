@@ -16,8 +16,6 @@ drop = 0;
 throwing = 0;
 throwMul = 2;
 
-fallDir = point_direction(x,y,objPlayer.x,objPlayer.y);
-
 
 // Blood settings
 spawnStart = true;            //spawn blood puddle immediately

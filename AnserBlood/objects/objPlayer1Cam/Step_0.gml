@@ -1,2 +1,2 @@
-x += (objPlayer.x - x) /15 ;
-y += (objPlayer.y - y) /15 ;
+x += (global.cursor1X - x) /15 ;
+y += (global.cursor1Y - y) /15 ;

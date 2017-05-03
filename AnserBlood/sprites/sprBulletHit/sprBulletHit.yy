@@ -230,7 +230,7 @@
         }
     ],
     "origin": 9,
-    "playbackSpeed": 15,
+    "playbackSpeed": 20,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
@@ -238,6 +238,6 @@
     "textureGroup": 0,
     "type": 0,
     "width": 32,
-    "xorig": 6,
+    "xorig": 15,
     "yorig": 16
 }
