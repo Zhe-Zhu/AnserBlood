@@ -5,7 +5,7 @@ yy = other.y
 fallDir = point_direction(xx,yy,x,y)
 toBullet = point_direction(x,y,xx,yy)
 
-	hp -= 5;
+	hp -= 2;
 	for (i=0; i < random_range(0,2); i++)
 	{
 		with instance_create_depth(x,y,-1,objCrateDebris)
@@ -16,9 +16,4 @@ toBullet = point_direction(x,y,xx,yy)
 		}
 	}
 	
-
-	
-
-	//销毁子弹
-	with other{instance_destroy()}
 

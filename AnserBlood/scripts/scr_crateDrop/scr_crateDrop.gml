@@ -1,7 +1,24 @@
-var randomDrop = random(100);
+var randomDrop = random(85);
 
-if randomDrop <= 30 {return objAmmo;}
-if randomDrop >= 31 && randomDrop<= 40 {return objArmor;}
-if randomDrop >= 41 && randomDrop<= 60 {return objWeaponRifle;}
-if randomDrop >= 61 && randomDrop<= 80 {return objWeaponShotgun;}
-if randomDrop >= 81 && randomDrop<= 100 {return objWeaponUzi;}
+if (randomDrop <= 38) 
+{return objPropsAmmo;}
+
+else if (randomDrop >= 39 && randomDrop <= 50) 
+{return objPropsArmor;}
+
+else if (randomDrop >= 51 && randomDrop<= 60) 
+{return objWeaponRifle;}
+
+else if (randomDrop >= 61 && randomDrop<= 70) 
+{return objWeaponShotgun;}
+
+else if (randomDrop >= 71 && randomDrop<= 85) 
+{return objWeaponUzi;}
+
+else if (randomDrop >= 86 && randomDrop<= 95) 
+{return objPropsFragmentation;}
+
+else
+{
+return objPropsAmmo;
+}

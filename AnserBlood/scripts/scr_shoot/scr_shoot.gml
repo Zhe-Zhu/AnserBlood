@@ -9,22 +9,22 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 	//射击
 	if firing = false 
 	{
-		if arm != 0 and clipAmmo >0	//如果是枪
+		if  clipAmmo >0	|| arm = 0//如果是枪
 		{
 			{
 			firing = true;
-			clipAmmo -= 1;	
 			alarm[0] = global.weaponArray[arm,2];
 			
 			var i;
 			for (i =0; i < global.weaponArray[arm,11]; i ++) 
 				{
 				//创建子弹
-				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4],image_angle),y+lengthdir_y(global.weaponArray[arm,4],image_angle),-1,global.weaponArray[arm,3]))
+				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4]+muzzleOffest,image_angle),y+lengthdir_y(global.weaponArray[arm,4]+muzzleOffest,image_angle),-10,global.weaponArray[arm,3]))
 				{		
 				direction = other.curPreDirection;
 				image_angle = direction;
 				selfBullet = other.id;
+				damage = global.weaponArray[other.arm,14];
 				move_towards_point
 				(other.cursor.x+random_range(-global.weaponArray[other.arm,6],global.weaponArray[other.arm,6]), 
 				other.cursor.y+random_range(-global.weaponArray[other.arm,6],global.weaponArray[other.arm,6]),
@@ -35,23 +35,12 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 					{		
 					direction = random(360);
 					image_angle = random(360);
-					speed = random_range(4,6);
+					speed = random_range(1,5);
 					}	
 				}
+			if arm = 0 { clipAmmo -=0;} 
+			else  {clipAmmo -= 1;}
 			}
 		}
-	
-	if arm = 0 //如果是近战
-			{
-			firing = true;
-				
-				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4],image_angle),y+lengthdir_y(global.weaponArray[arm,4],image_angle),-1,global.weaponArray[arm,3]))
-				{		
-					direction = other.curPreDirection;
-					image_angle = direction;
-					selfBullet = other.id;
-				}
-			alarm[0] = global.weaponArray[arm,2];
-			}
 	}
 }

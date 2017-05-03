@@ -5,7 +5,6 @@ yy = other.y
 fallDir = point_direction(xx,yy,x,y)
 toBullet = point_direction(x,y,xx,yy)
 
-
 	hp -= 2;
 	for (i=0; i < random_range(0,2); i++)
 	{

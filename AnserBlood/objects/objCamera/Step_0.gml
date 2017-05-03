@@ -7,15 +7,3 @@ camera_set_view_pos(view_camera[1],objPlayer2Cam.x -300 + shake2,objPlayer2Cam.y
 shake1 *= decay;
 shake2 *= decay;
 
-//var new_h = lerp(view_h, zoom_level * default_zoom_height, rate);
-
-/*
-var xTo,yTo;
-
-move_towards_point(mouse_x,mouse_y,0);
-xTo = objPlayer.x + lengthdir_x(min(64,distance_to_point(mouse_x,mouse_y)),direction)
-yTo = objPlayer.y + lengthdir_y(min(64,distance_to_point(mouse_x,mouse_y)),direction)
-
-x += (xTo-x)/15;
-y += (yTo-y)/15;
-

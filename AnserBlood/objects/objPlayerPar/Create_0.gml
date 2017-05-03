@@ -1,10 +1,14 @@
-
-hp = 20;
-hpMax = 20;
+hp = 60;
+hpMax = 60;
 
 inRoom = 0;
-inBush = 0;
+inBush = false;
+inSafeZone = false;
 isThrowing = 0;
+
+//还是要给一个初始值，用来在非接触下死亡时候用
+fallDir = random(360);
+toBullet = random(360);
 
 depth = - 99;
 //携带武器 0为初始空武器
@@ -17,14 +21,14 @@ firing = false;
 //指针
 threshold =.2;
 curPreDirection = 0;
-curDistance = 50;
+curDistance = 100;
 
 viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
 
 //装弹
-clipAmmo = 10;
-ammo = 150;
+clipAmmo = 1000;
+ammo = 20;
 progress = 0;
 doing = 0;
 finish = 100;
@@ -47,3 +51,18 @@ timer=0;
 moveDirection=-1;
 moveSpeed=0;
 frictionEnabled=true;
+
+//射击位置偏移
+muzzleOffest = 0;
+
+//安全区提示
+with instance_create_depth(x,y-30,-3,objExcMark)
+{
+	belongsTo = other.id;
+}
+
+//安全区指示标
+with instance_create_depth(x,y,-10,objSaftySign)
+{
+	belongsTo = other.id;
+}

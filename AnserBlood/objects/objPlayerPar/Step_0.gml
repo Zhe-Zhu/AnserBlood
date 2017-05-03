@@ -1,7 +1,11 @@
 //gamepad move
 if (gamepad_is_connected(playerNumber))
 {
+	//使用重机枪
+	if arm != 8
+	{
 	scr_move_gamepad(playerNumber);
+	}	
 }
 
 //决定玩家sprite
@@ -19,12 +23,28 @@ if moveSpeed != 0 || firing = true
     image_speed = 0;
     }
 
-//重置inroom
-if !place_meeting(x,y,objRoomCollision) {inRoom = 0;}
 
-//inBush
-if inBush =1 {image_alpha = 0.6};
-if !place_meeting(x,y,objBush) {inBush = 0; image_alpha = 1;}
+//进入遮蔽区
+if position_meeting(x,y,objHidingSpace)
+{
+	with position_meeting(x,y,objHidingSpace)
+	{
+	other.inRoom = id;
+	}
+}	
+else
+	{
+	inRoom = 0; 
+	}
+
+if inBush = true
+	{
+	image_alpha = 0.6;
+	}
+else
+	{
+	image_alpha = 1;
+	}
 
 //更新指针位置
 rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
@@ -67,6 +87,7 @@ if progress >= global.weaponArray[arm,13]
 }
 
 //丢手雷
+/*
 if (gamepad_button_check_pressed(playerNumber, gp_face3))
 	{	
 		if isThrowing = 0 and grenadeAmount >0 
@@ -80,7 +101,8 @@ if (gamepad_button_check_pressed(playerNumber, gp_face3))
 		isThrowing = 20;
 		}	
 	}
-	
+
+*/
 isThrowing --;
 if isThrowing <0 {isThrowing = 0;}
 
@@ -107,33 +129,84 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				}
 			}
 			
-	if ammo < 90
+		if instance_place(x, y, objWeaponHeavyMachineGun)
+			{
+				var previousArm = arm
+				if  arm !=8 
+				{
+					arm = 8 ;
+				} 
+				else
+				{
+					arm = previousArm;
+				}
+			}
+	//捡子弹条件	
+	if ammo < 80
 	{
-		with instance_place(x, y, objAmmo)
+		with instance_place(x, y, objPropsAmmo)
 		{
 		other.ammo += 30;
 		instance_destroy();
 		}
 	}		
-	
-	if armor < 100
+	//捡手雷条件
+	if grenadeAmount < 5
 	{
-		with instance_place(x, y, objArmor)
+		with instance_place(x, y, objPropsFragmentation)
 		{
-		other.armor += 20;
+		other.grenadeAmount += 1;
 		instance_destroy();
 		}
-	}		
+	}	
+	//捡护甲条件
+	if hp < hpMax
+	{
+		with instance_place(x, y, objPropsArmor)
+		{
+		other.hp += 15;
+		instance_destroy();
+		}
+	}	
+	if hp > hpMax {hp = hpMax}	
 }
 
 //SHOOT
 script_execute(scr_shoot);
 
-//死掉
+
+//不在安全区就要掉血
+if !place_meeting(x,y,objSafezone)
+{
+	inSafeZone = false;
+	hp -= 0.03;	
+}
+else 
+{
+inSafeZone = true;
+}
+
+//流血和死掉
+if random(100) <= 3
+{
+	if hp/hpMax <= 0.5 || inSafeZone = false
+	{
+		//制造血迹
+		for (i = 0; i < random(2); i++)
+		{
+			with(instance_create_depth(x,y,-1,objBloodParticle)) 
+			{
+					speed = random_range(2,3);
+					direction = random(360);
+					image_angle = direction;
+			}
+		}
+	}
+}
+
 if hp <= 0
 {
 	instance_destroy()
-	
 	with instance_create_depth(x,y,-2,objPlayerCorpseBat)
 	{
 		fallDir = other.fallDir;
@@ -145,6 +218,5 @@ if hp <= 0
 }
 
 //子弹和护甲数量限制
-if ammo > 90	{ammo = 90;}	
-if armor <0		{armor = 0;}
+if ammo > 80	{ammo = 80;}	
 
