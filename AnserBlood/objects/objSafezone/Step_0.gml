@@ -1,7 +1,7 @@
 x = objSaftyPoint.x 
 y = objSaftyPoint.y
 
-if objGame.safeZoneStatus = 0	
+if image_xscale >= 1 and objGame.safeZoneStatus = 0	
 {
 	if objGame.safeZoneLevel = 1
 	{

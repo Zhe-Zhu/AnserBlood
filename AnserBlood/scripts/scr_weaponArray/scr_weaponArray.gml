@@ -13,9 +13,9 @@
 */
 
 //set up empty array
-for (i =0; i < 3; i ++)
+for (i =0; i < 9; i ++)
 {
-    for (j = 0; j < 10; j ++)
+    for (j = 0; j < 15; j ++)
     {
         global.weaponArray[i,j] = 0;
     }
@@ -26,7 +26,7 @@ global.weaponArray[0,0] = 0
 global.weaponArray[0,1] = sprWeaponKandao; //Sprite Index
 global.weaponArray[0,2] = 20; //Rate of Fire
 global.weaponArray[0,3] = objBulletPistol; //Ammo Index
-global.weaponArray[0,4] = 8 //Muzzle Offset x
+global.weaponArray[0,4] = 15 //Muzzle Offset x
 global.weaponArray[0,5] = 10 //Bullet Speed
 global.weaponArray[0,6] = 2 //BulletDeviation
 global.weaponArray[0,7] = 8 //Ammo Amount per clip
@@ -43,7 +43,7 @@ global.weaponArray[1,0] = 1
 global.weaponArray[1,1] = sprRifle; //Sprite Index
 global.weaponArray[1,2] = 7; //Rate of Fire
 global.weaponArray[1,3] = objBulletRifle; //Ammo Index
-global.weaponArray[1,4] = 10 //Muzzle Offset x
+global.weaponArray[1,4] = 55 //Muzzle Offset x
 global.weaponArray[1,5] = 14 //Bullet Speed
 global.weaponArray[1,6] = 7 //BulletDeviation
 global.weaponArray[1,7] = 28 //Ammo Amount per clip
@@ -59,7 +59,7 @@ global.weaponArray[2,0] = 2
 global.weaponArray[2,1] = sprShotgun; //Sprite Index
 global.weaponArray[2,2] = 60; //Rate of Fire
 global.weaponArray[2,3] = objBulletShotgun; //Ammo Index
-global.weaponArray[2,4] = 10 //Muzzle Offset x
+global.weaponArray[2,4] = 60 //Muzzle Offset x
 global.weaponArray[2,5] = random_range(15,20) //Bullet Speed
 global.weaponArray[2,6] = 7 //BulletDeviation
 global.weaponArray[2,7] = 3 //Ammo Amount per clip
@@ -75,7 +75,7 @@ global.weaponArray[3,0] = 3
 global.weaponArray[3,1] = sprUzi; //Sprite Index
 global.weaponArray[3,2] = 4; //Rate of Fire
 global.weaponArray[3,3] = objBulletPistol; //Ammo Index
-global.weaponArray[3,4] = 10 //Muzzle Offset x
+global.weaponArray[3,4] = 60 //Muzzle Offset x
 global.weaponArray[3,5] = 12 //Bullet Speed
 global.weaponArray[3,6] = 13 //BulletDeviation
 global.weaponArray[3,7] = 20 //Ammo Amount per clip
@@ -86,3 +86,29 @@ global.weaponArray[3,11] = 1 //Bullets per shot
 global.weaponArray[3,12] = objWeaponUzi //Weapon Object
 global.weaponArray[3,13] = 100 //Reload Time(Frames)
 global.weaponArray[3,14] = 2 //Bullet Damage
+
+
+
+
+
+
+
+
+
+
+//[8] Heavy Machine Gun
+global.weaponArray[8,0] = 8
+global.weaponArray[8,1] = sprWeaponHeavyMachineGun; //Sprite Index
+global.weaponArray[8,2] = 2; //Rate of Fire
+global.weaponArray[8,3] = objBulletRifle; //Ammo Index
+global.weaponArray[8,4] = 80 //Muzzle Offset x
+global.weaponArray[8,5] = 18 //Bullet Speed
+global.weaponArray[8,6] = 15 //BulletDeviation
+global.weaponArray[8,7] = 200 //Ammo Amount per clip
+global.weaponArray[8,8] = sprPlayerDrive //Player Sprite Index
+global.weaponArray[8,9] = "HVG" // Name
+global.weaponArray[8,10] = sprPlayerDrive  //Player Sprite Attack Index
+global.weaponArray[8,11] = 1 //Bullets per shot
+global.weaponArray[8,12] = objWeaponHeavyMachineGun //Weapon Object
+global.weaponArray[8,13] = 200 //Reload Time(Frames)
+global.weaponArray[8,14] = 2.5 //Bullet Damage

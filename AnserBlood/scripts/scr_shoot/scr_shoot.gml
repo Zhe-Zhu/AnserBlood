@@ -19,7 +19,7 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 			for (i =0; i < global.weaponArray[arm,11]; i ++) 
 				{
 				//创建子弹
-				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4],image_angle),y+lengthdir_y(global.weaponArray[arm,4],image_angle),-1,global.weaponArray[arm,3]))
+				with (instance_create_depth(x+lengthdir_x(global.weaponArray[arm,4]+muzzleOffest,image_angle),y+lengthdir_y(global.weaponArray[arm,4]+muzzleOffest,image_angle),-10,global.weaponArray[arm,3]))
 				{		
 				direction = other.curPreDirection;
 				image_angle = direction;
@@ -35,7 +35,7 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 					{		
 					direction = random(360);
 					image_angle = random(360);
-					speed = random_range(4,6);
+					speed = random_range(1,5);
 					}	
 				}
 			if arm = 0 { clipAmmo -=0;} 

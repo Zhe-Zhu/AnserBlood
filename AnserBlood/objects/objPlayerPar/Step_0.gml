@@ -1,7 +1,11 @@
 //gamepad move
 if (gamepad_is_connected(playerNumber))
 {
+	//使用重机枪
+	if arm != 8
+	{
 	scr_move_gamepad(playerNumber);
+	}	
 }
 
 //决定玩家sprite
@@ -19,25 +23,28 @@ if moveSpeed != 0 || firing = true
     image_speed = 0;
     }
 
-//重置inroom
-if !place_meeting(x,y,objRoomCollision) {inRoom = 0;}
 
-//进入草丛
-if position_meeting(x,y,objBush)
+//进入遮蔽区
+if position_meeting(x,y,objHidingSpace)
 {
-	with position_meeting(x,y,objBush)
+	with position_meeting(x,y,objHidingSpace)
 	{
 	other.inRoom = id;
-	other.inBush = 1;
 	}
 }	
 else
-{
-inBush = 0; image_alpha = 1;
-}
+	{
+	inRoom = 0; 
+	}
 
-if inBush =1 {image_alpha = 0.6};
-
+if inBush = true
+	{
+	image_alpha = 0.6;
+	}
+else
+	{
+	image_alpha = 1;
+	}
 
 //更新指针位置
 rxaxis = gamepad_axis_value(playerNumber, gp_axisrh);
@@ -119,6 +126,19 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				{
 				other.arm = weaponIndex;
 				instance_destroy();
+				}
+			}
+			
+		if instance_place(x, y, objWeaponHeavyMachineGun)
+			{
+				var previousArm = arm
+				if  arm !=8 
+				{
+					arm = 8 ;
+				} 
+				else
+				{
+					arm = previousArm;
 				}
 			}
 	//捡子弹条件	

@@ -2,7 +2,7 @@ hp = 60;
 hpMax = 60;
 
 inRoom = 0;
-inBush = 0;
+inBush = false;
 inSafeZone = false;
 isThrowing = 0;
 
@@ -21,13 +21,13 @@ firing = false;
 //指针
 threshold =.2;
 curPreDirection = 0;
-curDistance = 50;
+curDistance = 100;
 
 viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
 
 //装弹
-clipAmmo = 0;
+clipAmmo = 1000;
 ammo = 20;
 progress = 0;
 doing = 0;
@@ -51,6 +51,9 @@ timer=0;
 moveDirection=-1;
 moveSpeed=0;
 frictionEnabled=true;
+
+//射击位置偏移
+muzzleOffest = 0;
 
 //安全区提示
 with instance_create_depth(x,y-30,-3,objExcMark)

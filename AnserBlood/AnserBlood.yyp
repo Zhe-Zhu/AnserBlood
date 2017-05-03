@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "1ed2dca2-a17f-46e5-a10c-658e3c0f1a24",
+            "Value": {
+                "id": "5a1e9d59-32ed-4eef-8052-b098457c24b0",
+                "resourcePath": "sprites\\sprPlayerDrive\\sprPlayerDrive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ef26d5f-70b0-4fd3-81dc-dac1c06564e8",
             "Value": {
                 "id": "11d4f37d-2132-4d49-bf33-c9b0f404744f",
@@ -283,6 +291,14 @@
             "Value": {
                 "id": "bd765387-cd06-4122-a45c-64605f16e58f",
                 "resourcePath": "sprites\\sprEnemyDeadCutThroat\\sprEnemyDeadCutThroat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "20bf9be0-c656-43bf-a5bc-34bf7c369474",
+            "Value": {
+                "id": "64ba6d83-e7fb-428d-8bbe-aaa311ea4f43",
+                "resourcePath": "sprites\\sprite_94\\sprite_94.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "2ce91db8-b132-4a29-851c-ff9efde8934e",
+            "Value": {
+                "id": "e6da40e7-e11d-4c3e-9da5-739bc5fb63bd",
+                "resourcePath": "sprites\\sprWeaponHeavyMachineGun\\sprWeaponHeavyMachineGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d672d0e-8072-4c3a-9933-b761f9417627",
             "Value": {
                 "id": "5550b171-a757-4f90-a290-1b40db209b07",
@@ -420,6 +444,14 @@
                 "id": "7ab39a9d-186c-4438-a207-56c86f1b05eb",
                 "resourcePath": "sprites\\sprPlayerRifleWalk\\sprPlayerRifleWalk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "339942f7-14ad-4350-87d2-4414e155a97b",
+            "Value": {
+                "id": "d8b9ff78-84e8-47a2-a84b-9efe08797cc8",
+                "resourcePath": "objects\\objHidingSpace\\objHidingSpace.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -999,6 +1031,14 @@
             }
         },
         {
+            "Key": "869df599-3c2d-41a6-a4bc-28713c4c6665",
+            "Value": {
+                "id": "de31d833-85af-41c3-8a90-b950c7b70819",
+                "resourcePath": "objects\\objWeaponHeavyMachineGun\\objWeaponHeavyMachineGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87113bfe-860c-4a99-ad31-d20c47373c00",
             "Value": {
                 "id": "4842cb0c-1a17-4d2b-8a56-d94efdf221b3",
@@ -1068,6 +1108,14 @@
                 "id": "274e2bbd-a9a5-4227-8463-df37f70b9232",
                 "resourcePath": "sprites\\sprPlayerPistolWalk\\sprPlayerPistolWalk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "949e1fe5-ec23-4351-a422-1e166c568f04",
+            "Value": {
+                "id": "f8542059-d201-40d0-a938-f6e76cff74ba",
+                "resourcePath": "objects\\objSandBad1\\objSandBad1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1211,6 +1259,14 @@
             "Value": {
                 "id": "da07af51-aad7-49e1-8f1f-36bb6ba80eaf",
                 "resourcePath": "sprites\\sprExclamationMark\\sprExclamationMark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2e48751-1292-4094-8ed0-c61936f1f12b",
+            "Value": {
+                "id": "1e226e14-5fbb-4bba-b702-5a4f96ad6b38",
+                "resourcePath": "sprites\\sprSandBadShootingPos\\sprSandBadShootingPos.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1415,6 +1471,14 @@
             }
         },
         {
+            "Key": "c4cc6369-79c9-44f4-bc37-cbe1eb9a68dc",
+            "Value": {
+                "id": "9896fa1a-09a1-4c5d-a5bd-73241bfc0ec6",
+                "resourcePath": "objects\\objSandBagShootingPos\\objSandBagShootingPos.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5486150-76c4-4831-afe0-67bcdad4b3d3",
             "Value": {
                 "id": "7656be73-558f-4ea4-b615-d95e4ac0ff01",
@@ -1548,6 +1612,14 @@
                 "id": "bc7550bb-1d25-4819-ba5f-3affabff83d8",
                 "resourcePath": "objects\\objCrate\\objCrate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df9a6c9f-9e8d-4315-a9d8-b20e7a912f5f",
+            "Value": {
+                "id": "260a4a35-3e0f-40b9-a2bc-2fdedb0a9ad2",
+                "resourcePath": "sprites\\sprSandBad\\sprSandBad.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
