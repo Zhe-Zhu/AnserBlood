@@ -26,9 +26,6 @@ if (rmagnitude >= threshold)
 	image_angle = rdirection;
 }
 
-	
-
-
 cursor.x = x + lengthdir_x(curDistance, curPreDirection);
 cursor.y = y + lengthdir_y(curDistance, curPreDirection);
 
