@@ -55,8 +55,7 @@ if (gamepad_button_check(playerNumber, gp_shoulderr))
 					speed = random_range(1,5);
 					}	
 				}
-			if arm = 0 { clipAmmo -=0;} 
-			else  {clipAmmo -= 1;}
+			clipAmmo -= global.weaponArray[arm,18];
 			}
 		}
 	}

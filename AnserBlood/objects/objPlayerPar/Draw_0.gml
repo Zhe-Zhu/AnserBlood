@@ -1,6 +1,7 @@
 draw_set_font(font_stat_small);
 
 if view_current == playerNumber {draw_self();}
+//DEBUG专用
 //draw_text(x,y,string(cursor.image_angle));
 //draw_text(x,y+20,string(shootTargetX));
 //draw_text(x,y+40,string(shootTargetY));

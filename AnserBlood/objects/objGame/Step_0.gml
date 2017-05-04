@@ -7,11 +7,6 @@ if keyboard_check(ord("R")) or gamepad_button_check_pressed(0,gp_start) or gamep
 game_restart();
 }
 
-//连杀显示
-if global.killCount >= 5
-{
-	instance_create_depth(x,y,-100,objKillingSpree);
-}
 
 game_set_speed(60, gamespeed_fps);
 

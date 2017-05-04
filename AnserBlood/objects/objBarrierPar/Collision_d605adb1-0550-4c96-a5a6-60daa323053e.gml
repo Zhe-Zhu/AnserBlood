@@ -1,6 +1,7 @@
 //子弹的x和y
-xx = other.x;
-yy = other.y;
+
+xx = other.x + lengthdir_x(20,other.direction);
+yy = other.y + lengthdir_y(20,other.direction);
 
 with instance_create_depth(xx,yy,-1,objBulletHit)
 	{

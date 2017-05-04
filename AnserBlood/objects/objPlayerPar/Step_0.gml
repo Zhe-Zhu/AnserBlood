@@ -1,11 +1,7 @@
 //gamepad move
 if (gamepad_is_connected(playerNumber))
 {
-	//使用重机枪
-	if arm != 8
-	{
 	scr_move_gamepad(playerNumber);
-	}	
 }
 
 //更新指针位置
@@ -17,7 +13,8 @@ ryaxis = gamepad_axis_value(playerNumber, gp_axisrv);
 //rmagnitude = point_distance(0, 0, xaxis, yaxis);
 
 rdirection = point_direction(0, 0, rxaxis, ryaxis);  // 跟右摇杆
-rmagnitude = point_distance( 0, 0, rxaxis, ryaxis);
+rmagnitude = point_distance (0, 0, rxaxis, ryaxis);
+
 
 if (rmagnitude >= threshold) 
 {
@@ -43,7 +40,8 @@ if moveSpeed != 0 || firing = true
     image_index = 0;
     image_speed = 0;
     }
-
+//玩家移动速度
+walkSpeed = 2.6 + global.weaponArray[arm,17];
 
 //进入遮蔽区
 if position_meeting(x,y,objHidingSpace)

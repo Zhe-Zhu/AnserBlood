@@ -8,12 +8,13 @@
         "11313a99-dd93-4c44-a1f9-53d77eb66311",
         "16544049-f206-497e-88f9-442abc979fce",
         "26b17945-43d1-4c8c-9a49-0fc14da7ca7a",
+        "0da319b5-2af8-409e-9ce3-bd5f1f3176c6",
+        "a3db6b22-fff8-49dd-8c2e-fd442d7bd5ac",
         "aeec3311-55c3-4794-8772-5abdc5b57096",
-        "1f4c2987-6164-4c49-85ed-edaf12158f13",
-        "19e6cea0-d73f-463b-892e-f86ee9790f2b",
         "4af1f057-0bb9-49a4-890c-8b90fddd31e5",
         "a44083a2-4c75-4a80-a6c2-7cefec05b6f7",
-        "cb76b387-d5b3-4857-8ae7-156b09cd82a7"
+        "cb76b387-d5b3-4857-8ae7-156b09cd82a7",
+        "79386bef-9265-4629-84d8-bcee2f5eb93f"
     ],
     "filterType": "GMObject",
     "folderName": "Player",
