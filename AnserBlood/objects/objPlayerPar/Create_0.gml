@@ -11,6 +11,7 @@ fallDir = random(360);
 toBullet = random(360);
 
 depth = - 99;
+
 //携带武器 0为初始空武器
 arm = 0;
 armor = 0;
@@ -18,7 +19,10 @@ grenadeAmount = 2;
 
 firing = false;
 
+hasTarget = false;
+
 //指针
+cursor = 0;
 threshold =.2;
 curPreDirection = 0;
 curDistance = 100;
@@ -26,8 +30,13 @@ curDistance = 100;
 viewAngle = 30;                  // -+30 degree
 aggroRange = 480;
 
+//辅助瞄准相关
+targeting = 0;	
+shootTargetX = 0;
+shootTargetY = 0;
+
 //装弹
-clipAmmo = 1000;
+clipAmmo = 100;
 ammo = 20;
 progress = 0;
 doing = 0;
@@ -43,7 +52,7 @@ bloodRandDir = 40;            //bleed direction randomization
 bloodRandPos = 8;            //bleed position randomization
 
 //插件移动
-walkSpeed=2.6;
+walkSpeed = 2.6 + global.weaponArray[arm,17];
 walkAcceleration = walkSpeed*.1;
 againstWall=0;
 
@@ -66,3 +75,20 @@ with instance_create_depth(x,y,-10,objSaftySign)
 {
 	belongsTo = other.id;
 }
+
+//创建视野
+with instance_create_depth(x,y,-5,objView)
+{
+	belongsTo = other.id;
+}
+
+//创建摄像机
+with instance_create_depth(x,y,-5,objPlayerCam)
+{
+	belongsTo = other.id;
+}
+
+//游标
+cursor = instance_create_depth(x, y, 0, objCursor)
+
+cursor.belongsTo = other.id;

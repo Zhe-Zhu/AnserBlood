@@ -1,7 +1,12 @@
 draw_set_font(font_stat_small);
 
 if view_current == playerNumber {draw_self();}
-//draw_text(x,y,string(inRoom));
+//DEBUG专用
+//draw_text(x,y,string(cursor.image_angle));
+//draw_text(x,y+20,string(shootTargetX));
+//draw_text(x,y+40,string(shootTargetY));
+//draw_text(x,y+60,string(image_angle));
+//draw_text(x,y+80,string(hasTarget));
 
 //装子弹
 if view_current == playerNumber and doing = 1

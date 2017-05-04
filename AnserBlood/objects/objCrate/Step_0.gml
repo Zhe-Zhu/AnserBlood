@@ -4,7 +4,7 @@ if hp <= 0
 	instance_destroy();
 	
 	//创建掉落 1个或2个
-	for (i=0; i <random_range(1,2); i++)
+	for (i=0; i <random_range(1,3); i++)
 	{
 		with instance_create_depth(x,y,-2,scr_crateDrop())
 		{

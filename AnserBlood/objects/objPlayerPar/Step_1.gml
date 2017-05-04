@@ -1,0 +1,1 @@
+hasTarget = false;
