@@ -9,7 +9,7 @@ fuze --;
 if fuze <= 0
 {
 	var i;
-	for (i =0; i< 7; i++)
+	for (i =0; i< 2; i++)
 	{
 		if random(100) < bloodParticleChance || spawnStart 
 		{ //spawn sprite animation
@@ -20,8 +20,8 @@ if fuze <= 0
 				speed = random_range(3,4);
 				direction = random(360);
 				image_angle = direction;
-				image_xscale = random_range(0.3,0.8);
-				image_yscale = random_range(0.3,0.8);
+				image_xscale = random_range(0.5,0.8);
+				image_yscale = random_range(0.5,0.8);
 			}
 		}	
 	}	

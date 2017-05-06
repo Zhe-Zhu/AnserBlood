@@ -5,3 +5,6 @@ if animating {
 		animating = false;
 	}
 }
+
+image_alpha  -= 0.002;
+if image_alpha <= 0.1 {instance_destroy()}

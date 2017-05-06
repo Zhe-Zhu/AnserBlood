@@ -91,7 +91,7 @@ if progress >= global.weaponArray[arm,13]
 }
 
 //丢手雷
-/*
+
 if (gamepad_button_check_pressed(playerNumber, gp_face3))
 	{	
 		if isThrowing = 0 and grenadeAmount >0 
@@ -106,7 +106,7 @@ if (gamepad_button_check_pressed(playerNumber, gp_face3))
 		}	
 	}
 
-*/
+
 isThrowing --;
 if isThrowing <0 {isThrowing = 0;}
 
@@ -133,18 +133,6 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 				}
 			}
 			
-		if instance_place(x, y, objWeaponHeavyMachineGun)
-			{
-				var previousArm = arm
-				if  arm !=8 
-				{
-					arm = 8 ;
-				} 
-				else
-				{
-					arm = previousArm;
-				}
-			}
 	//捡子弹条件	
 	if ammo < 120
 	{
@@ -173,11 +161,22 @@ if (gamepad_button_check_pressed(playerNumber, gp_face2))
 		}
 	}	
 	if hp > hpMax {hp = hpMax}	
+	
+	//捡护甲条件
+	if coinAmount = 0
+	{
+		with instance_place(x, y, objCoin)
+		{
+		other.coinAmount +=1;
+		instance_destroy();
+		}
+	}	
 }
 
 
 
 //不在安全区就要掉血
+/*
 if !place_meeting(x,y,objSafezone)
 {
 	inSafeZone = false;
@@ -187,11 +186,12 @@ else
 {
 inSafeZone = true;
 }
+*/
 
 //流血和死掉
 if random(100) <= 3
 {
-	if hp/hpMax <= 0.5 || inSafeZone = false
+	if hp/hpMax <= 0.5 
 	{
 		//制造血迹
 		for (i = 0; i < random(2); i++)
@@ -208,15 +208,34 @@ if random(100) <= 3
 
 if hp <= 0
 {
-	instance_destroy()
-	with instance_create_depth(x,y,-2,objPlayerCorpseBat)
-	{
+		if coinAmount >=1 
+		{
+			with instance_create_depth(x,y,-1,objCoin)
+			{
+			speed = random(8);
+			direction = random(360);
+			}
+		}
+		with instance_create_depth(x,y,-1,global.weaponArray[arm,12])
+		{
+		speed = 7;
+		direction = random(360);
+		cantPick = 1;
+		}
+		//创造尸体
+		
+		with instance_create_depth(x,y,-2,objPlayerCorpseBat)
+		{
 		fallDir = other.fallDir;
 		toBullet = other.toBullet;
 		image_angle = fallDir;
 		speed = 8;
 		direction = fallDir;
-	}
+		}
+		
+		instance_destroy()
+		
+		
 }
 
 //子弹和护甲数量限制

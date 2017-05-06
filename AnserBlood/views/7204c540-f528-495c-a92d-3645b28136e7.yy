@@ -14,7 +14,8 @@
         "869df599-3c2d-41a6-a4bc-28713c4c6665",
         "9dfa3fb0-db47-4c0b-a81b-84215e3dc131",
         "144b16b7-f097-4c27-a9b0-7845f1071633",
-        "e14d350c-ef84-43ff-a041-2a17a009e0ff"
+        "e14d350c-ef84-43ff-a041-2a17a009e0ff",
+        "0f62d8ae-4bc4-4ce4-aacf-95213494c633"
     ],
     "filterType": "GMObject",
     "folderName": "loot",

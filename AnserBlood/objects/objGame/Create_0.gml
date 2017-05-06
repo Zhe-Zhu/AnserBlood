@@ -11,62 +11,10 @@ safeZoneStatus = 1; //0收缩  1倒计时
 countDownSafeZone = alarm[0] / 60; 
 
 
-randomize();
-//创建玩家
-//创建玩家1
-	spawn_id = instance_create_depth(0,0,-5, objPlayer1);
-	do
-	{
-	    spawn_id.x = random(room_width);
-	    spawn_id.y = random(room_height);
 
-	with (spawn_id)
-	    {
-	        collision = place_meeting(x,y,objBarrierPar)
-	    }
-	}
-	until spawn_id.collision = 0;
-//创建玩家2
-	spawn_id = instance_create_depth(0,0,-5, objPlayer2);
-	do
-	{
-	    spawn_id.x = random(room_width);
-	    spawn_id.y = random(room_height);
-
-	with (spawn_id)
-	    {
-	        collision = place_meeting(x,y,objBarrierPar)
-	    }
-	}
-	until spawn_id.collision = 0;
-//创建玩家3	
-		spawn_id = instance_create_depth(0,0,-5, objPlayer3);
-	do
-	{
-	    spawn_id.x = random(room_width);
-	    spawn_id.y = random(room_height);
-
-	with (spawn_id)
-	    {
-	        collision = place_meeting(x,y,objBarrierPar)
-	    }
-	}
-	until spawn_id.collision = 0;
-//创建玩家4	
-		spawn_id = instance_create_depth(0,0,-5, objPlayer4);
-	do
-	{
-	    spawn_id.x = random(room_width);
-	    spawn_id.y = random(room_height);
-
-	with (spawn_id)
-	    {
-	        collision = place_meeting(x,y,objBarrierPar)
-	    }
-	}
-	until spawn_id.collision = 0;
 
 //创建安全区
+/*
 with instance_create_depth(x,y,4,objSaftyPoint)
 {
 	x = random_range(room_width/5,room_width*4/5,)

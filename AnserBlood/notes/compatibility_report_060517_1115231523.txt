@@ -1,0 +1,59 @@
+Converting GML script : ${project_dir}\scripts\Aura_Update\Aura_Update.gml
+Converted builtin : line 32 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 32 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\scripts\Aura_Init\Aura_Init.gml
+Converted builtin : line 17 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 17 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\scripts\Aura_ReInit\Aura_ReInit.gml
+Converted builtin : line 14 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 14 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\scripts\Aura_Draw\Aura_Draw.gml
+Converted builtin : line 9 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 9 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script : ${project_dir}\objects\Aura_DEMO_Control\Step_0.gml
+Converted builtin : line 32 : view_xview[0] = floor(clamp(x - (view_wview[0] / 2), 0, room_width - view_wview[0] -> __view_set( e__VW.XView, 0, floor(clamp(x - (view_wview[0] / 2), 0, room_width - view_wview[0] )
+Converted builtin : line 33 : view_yview[0] = floor(clamp(y - (view_hview[0] / 2), 0, room_height - view_hview[0] -> __view_set( e__VW.YView, 0, floor(clamp(y - (view_hview[0] / 2), 0, room_height - view_hview[0] )
+Converted builtin : line 32 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 32 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 33 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin : line 33 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\objects\obj_Aura_Torch_Light\Step_0.gml
+Converted builtin : line 12 : view_xview[0] = floor(clamp(x - (view_wview[0] / 2), 0, room_width - view_wview[0] -> __view_set( e__VW.XView, 0, floor(clamp(x - (view_wview[0] / 2), 0, room_width - view_wview[0] )
+Converted builtin : line 13 : view_yview[0] = floor(clamp(y - (view_hview[0] / 2), 0, room_height - view_hview[0] -> __view_set( e__VW.YView, 0, floor(clamp(y - (view_hview[0] / 2), 0, room_height - view_hview[0] )
+Converted builtin : line 12 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 12 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 13 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin : line 13 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Font font0 has been converted to font family Arial (Regular). Font has been regenerated, small inconsistencies may occur.
+Converting GML script : ${project_dir}\scripts\in_view\in_view.gml
+Converted builtin : line 11 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 13 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 12 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 14 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 13 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 14 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\scripts\Aura_Light_Draw_Fast\Aura_Light_Draw_Fast.gml
+Converted builtin : line 12 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 12 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script : ${project_dir}\scripts\Aura_Light_Draw\Aura_Light_Draw.gml
+Converted builtin : line 12 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 12 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+added compatibility script draw/draw_set_blend_mode.gml
+added compatibility script draw/draw_set_blend_mode_ext.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script view/__view_get.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml

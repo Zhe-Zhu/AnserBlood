@@ -15,7 +15,8 @@ depth = - 99;
 //携带武器 0为初始空武器
 arm = 0;
 armor = 0;
-grenadeAmount = 2;
+grenadeAmount = 20;
+coinAmount = 0;
 
 firing = false;
 
@@ -65,7 +66,7 @@ frictionEnabled=true;
 muzzleOffest = 0;
 
 //安全区提示
-with instance_create_depth(x,y-30,-3,objExcMark)
+/*with instance_create_depth(x,y-30,-3,objExcMark)
 {
 	belongsTo = other.id;
 }
@@ -74,7 +75,7 @@ with instance_create_depth(x,y-30,-3,objExcMark)
 with instance_create_depth(x,y,-10,objSaftySign)
 {
 	belongsTo = other.id;
-}
+}*/
 
 //创建视野
 with instance_create_depth(x,y,-5,objView)
@@ -90,5 +91,5 @@ with instance_create_depth(x,y,-5,objPlayerCam)
 
 //游标
 cursor = instance_create_depth(x, y, 0, objCursor)
-
 cursor.belongsTo = other.id;
+

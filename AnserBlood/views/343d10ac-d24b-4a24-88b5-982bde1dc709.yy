@@ -6,7 +6,8 @@
     "children": [
         "ddcda203-f17d-412c-b909-ee6582eb9e28",
         "2414d209-b4f9-4514-aa8c-c9a3c9f3a108",
-        "9bacd602-50ed-4efc-98a2-d35c4965af49"
+        "9bacd602-50ed-4efc-98a2-d35c4965af49",
+        "f28a6c10-bfdb-4bf6-974a-f1a163785821"
     ],
     "filterType": "GMSprite",
     "folderName": "tilesets",

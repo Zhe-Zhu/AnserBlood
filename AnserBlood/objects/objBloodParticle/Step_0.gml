@@ -13,3 +13,6 @@ if speed > 0 {
 	// Scale
 	drawXScale = 1+speed*0.8;
 }
+
+image_alpha  -= 0.002;
+if image_alpha <= 0.1 {instance_destroy()}
