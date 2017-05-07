@@ -16,11 +16,16 @@ rdirection = point_direction(0, 0, rxaxis, ryaxis);  // 跟右摇杆
 rmagnitude = point_distance (0, 0, rxaxis, ryaxis);
 
 
+
+
 if (rmagnitude >= threshold) 
 {
 	cursor.image_angle = rdirection;
 	curPreDirection = rdirection;
-	image_angle = rdirection;
+	var dif = angle_difference(rdirection, image_angle);
+	image_angle += median(-4, dif, 4);
+	
+	//image_angle = rdirection;
 }
 
 cursor.x = x + lengthdir_x(curDistance, curPreDirection);
